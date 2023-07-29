@@ -5,26 +5,42 @@ import { load, store } from "./storage";
 import { getEmailPassword } from "./promptLogin";
 const Cognito = new CognitoIdentityProvider({ region: "eu-west-1" });
 
-export async function login(email: string, password: string) {
-  const response = await Cognito.initiateAuth({
-    AuthFlow: "USER_PASSWORD_AUTH",
-    ClientId: AWS_CLIENT_ID,
-    AuthParameters: { USERNAME: email.replaceAll(" ", ""), PASSWORD: password },
-  });
-
-  if (!response.AuthenticationResult) {
-    throw new Error("An unexpected error occurred");
-  }
-
-  store(CREDENTIALS_KEY, {
-    ...response.AuthenticationResult,
-    ExpirationTimestamp: Math.round(
-      new Date().getTime() / 1000 + response.AuthenticationResult.ExpiresIn!
-    ),
-  });
+export function logout() {
+  store(CREDENTIALS_KEY, undefined);
 }
 
-export async function getAccessToken() {
+export async function login() {
+  const { email, password } = getEmailPassword();
+
+  try {
+    const response = await Cognito.initiateAuth({
+      AuthFlow: "USER_PASSWORD_AUTH",
+      ClientId: AWS_CLIENT_ID,
+      AuthParameters: {
+        USERNAME: email.replaceAll(" ", ""),
+        PASSWORD: password,
+      },
+    });
+
+    if (!response.AuthenticationResult) {
+      console.log("An error occurred");
+      return;
+    }
+
+    store(CREDENTIALS_KEY, {
+      ...response.AuthenticationResult,
+      ExpirationTimestamp: Math.round(
+        new Date().getTime() / 1000 + response.AuthenticationResult.ExpiresIn!
+      ),
+    });
+  } catch {
+    console.log("Invalid login, try again");
+    await login();
+    return;
+  }
+}
+
+export async function getAccessToken(): Promise<string> {
   try {
     let credentials: Credentials | null;
 
@@ -47,8 +63,7 @@ export async function getAccessToken() {
 
     return credentials.AccessToken + "";
   } catch {
-    const { email, password } = getEmailPassword();
-    await login(email, password);
+    await login();
     return getAccessToken();
   }
 }

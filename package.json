@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "start": "ts-node src/index.ts",
     "prepare": "husky install",
-    "changeVersion": "exec < /dev/tty && node changeVersion.js"
+    "changeVersion": "node -e \"process.platform === 'darwin' && exec < /dev/tty && node changeVersion.js\""
   },
   "devDependencies": {
     "@types/node": "^20.4.5",
     "@types/node-fetch": "^2.6.4",
     "@types/prompt-sync": "^4.2.0",
-    "typescript": "^5.1.6",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "typescript": "^5.1.6"
   },
   "dependencies": {
     "@aws-sdk/client-cognito-identity-provider": "^3.379.1",
@@ -20,6 +20,7 @@
     "node-fetch": "^2.6.12",
     "path": "^0.12.7",
     "prompt-sync": "^4.2.0",
-    "prompts": "^2.4.2"
+    "prompts": "^2.4.2",
+    "ts-node": "^10.9.1"
   }
 }

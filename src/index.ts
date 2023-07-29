@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { getAccessToken } from "./credentialsHandler";
+import { getAccessToken, login, logout } from "./credentialsHandler";
 import { downloadFile } from "./util";
 import FormData from "form-data";
 import fs from "fs";
@@ -38,13 +38,19 @@ const targetFolder = "..";
 
   while (true) {
     console.log();
-    const input = prompt("(E)xit, (S)ync, (C)lean up: ");
+    const input = prompt("(E)xit, (S)ync, (C)lean up, (L)og out: ");
     if (input.toLowerCase() === "e") {
       process.exit();
     } else if (input.toLowerCase() === "s") {
       await synchronize();
     } else if (input.toLowerCase() === "c") {
       cleanUp();
+    } else if (input.toLowerCase() === "l") {
+      logout();
+      console.log("Logged out...");
+      await login();
+    } else {
+      console.log("Input not recognized");
     }
   }
 })();
