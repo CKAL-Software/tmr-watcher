@@ -10,30 +10,29 @@ import path from "path";
 
 const register: Record<string, number> = {};
 const prompt = promptImport({ sigint: true });
-const targetFolder = "jep";
+const targetFolder = "..";
 
 (async () => {
   const { version } = JSON.parse(fs.readFileSync("package.json").toString());
 
-  console.log();
   console.log(`Running TrackMania Registry watcher v${version}`);
 
   // make sure accesstoken is fresh
   await getAccessToken();
 
   console.log();
-  console.log(`Watching for file changes in folder: ${targetFolder}...`);
+  console.log(`Watching for file changes...`);
 
   fs.watch(targetFolder, (_event, filename) => {
     if (!filename?.includes(".Replay.gbx")) {
       return;
     }
 
-    const modified = fs.statSync(`${targetFolder}/${filename}`).mtimeMs;
+    const modified = fs.statSync(path.join(targetFolder, filename)).mtimeMs;
 
     if (filename && (!register[filename] || register[filename] < modified)) {
       register[filename] = modified;
-      uploadGhostIfFaster(`${targetFolder}/${filename}`);
+      uploadGhostIfFaster(path.join(targetFolder, filename));
     }
   });
 
