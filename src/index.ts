@@ -42,7 +42,7 @@ const targetFolder = "..";
     } else if (input.toLowerCase() === "s") {
       await synchronize();
     } else if (input.toLowerCase() === "c") {
-      await cleanUp();
+      cleanUp();
     }
   }
 })();
@@ -89,31 +89,23 @@ async function cleanUp() {
 }
 
 async function synchronize() {
-  const [playerNameResult, tracksResult] = await Promise.all([
-    fetch("https://api.ckal.dk/tmr/username", {
-      headers: { Authorization: await getAccessToken() },
-    }),
-    fetch("https://api.ckal.dk/tmr/tracks", {
-      headers: { Authorization: await getAccessToken() },
-    }),
-  ]);
+  const tracksResult = await fetch("https://api.ckal.dk/tmr/tracks", {
+    headers: { Authorization: await getAccessToken() },
+  });
 
-  if (!playerNameResult.ok || !tracksResult.ok) {
+  if (!tracksResult.ok) {
     console.log("An error occurred");
     return;
   }
 
   const tracks: Track[] = await tracksResult.json();
-  const playerName: string = (await playerNameResult.json()).username;
 
   const otherGhosts: string[] = [];
 
   tracks.forEach((t) => {
-    Object.entries(t.records)
-      .filter(([name]) => name !== playerName)
-      .forEach(([, ghost]) =>
-        otherGhosts.push(ghost.fileName.replace("<>", "__").split("/")[1])
-      );
+    Object.entries(t.records).forEach(([, ghost]) =>
+      otherGhosts.push(ghost.fileName.replace("<>", "__").split("/")[1])
+    );
   });
 
   const existingGhosts = fs
