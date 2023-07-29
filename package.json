@@ -1,8 +1,9 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "build": "parcel build src/index.ts --out-file bundle.js --target node",
-    "start": "ts-node src/index.ts",
+    "start": "node dist/bundle.js",
+    "start-ts": "ts-node src/index.ts",
     "prepare": "husky install",
     "changeVersion": "exec < /dev/tty && node changeVersion.js"
   },
