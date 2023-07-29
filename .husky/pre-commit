@@ -2,4 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run changeVersion
-git add package.json
+npm run build
+git add .
