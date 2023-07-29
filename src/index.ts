@@ -1,33 +1,154 @@
 import fetch from "node-fetch";
 import { getAccessToken } from "./credentialsHandler";
-import { msToLaptime } from "./util";
+import { downloadFile } from "./util";
 import FormData from "form-data";
 import fs from "fs";
 import { String } from "aws-sdk/clients/batch";
+import promptImport from "prompt-sync";
+import { Track } from "./definitions";
+import path from "path";
 
-// const register: Record<string, number> = {};
+const register: Record<string, number> = {};
+const prompt = promptImport({ sigint: true });
+const targetFolder = "jep";
 
-// // make sure accesstoken is fresh
-// async () => {
-//   await getAccessToken();
+(async () => {
+  // make sure accesstoken is fresh
+  await getAccessToken();
 
-//   const targetFolder = "jep";
+  const {} = JSON.parse(fs.readFileSync("package.json").toString());
 
-//   console.log(`Watching for file changes in this folder ${targetFolder}`);
+  console.log(`Watching for file changes in this folder ${targetFolder}`);
 
-//   fs.watch(targetFolder, (_event, filename) => {
-//     if (!filename?.includes(".Replay.gbx")) {
-//       return;
-//     }
+  fs.watch(targetFolder, (_event, filename) => {
+    if (!filename?.includes(".Replay.gbx")) {
+      return;
+    }
 
-//     const modified = fs.statSync(`${targetFolder}/${filename}`).mtimeMs;
+    const modified = fs.statSync(`${targetFolder}/${filename}`).mtimeMs;
 
-//     if (filename && (!register[filename] || register[filename] < modified)) {
-//       register[filename] = modified;
-//       uploadGhostIfFaster(`${targetFolder}/${filename}`);
-//     }
-//   });
-// };
+    if (filename && (!register[filename] || register[filename] < modified)) {
+      register[filename] = modified;
+      uploadGhostIfFaster(`${targetFolder}/${filename}`);
+    }
+  });
+
+  while (true) {
+    const input = prompt("(E)xit, (S)ync, (C)lean up: ");
+    if (input.toLowerCase() === "e") {
+      process.exit();
+    } else if (input.toLowerCase() === "s") {
+      await synchronize();
+    } else if (input.toLowerCase() === "c") {
+      cleanUp();
+    }
+    console.log();
+  }
+})();
+
+function cleanUp() {
+  const ghosts = fs
+    .readdirSync(targetFolder)
+    .filter((name) => name.includes(".Replay.gbx"));
+
+  const trackToTime: Record<string, { time: number; fileName: string }> = {};
+  const ghostsToCleanup: string[] = [];
+
+  ghosts.forEach((g) => {
+    const [base] = g.split(".");
+    const [rest, time] = base.split("__");
+
+    if (trackToTime[rest] && trackToTime[rest].time < Number(time)) {
+      ghostsToCleanup.push(g);
+    } else {
+      trackToTime[rest] = { time: Number(time), fileName: g };
+    }
+  });
+
+  if (ghostsToCleanup.length === 0) {
+    console.log("Nothing to clean up");
+  } else {
+    console.log(
+      `${ghostsToCleanup.length} ghost${
+        ghostsToCleanup.length === 1 ? "" : "s"
+      } can be deleted:`
+    );
+    ghostsToCleanup.forEach((g) => console.log(`- ${g}`));
+    const answer = prompt("Delete now? (Y/n): ");
+
+    if (answer.toLowerCase() === "y" || answer === "") {
+      ghostsToCleanup.forEach((g) => fs.rmSync(path.join(targetFolder, g)));
+    }
+    console.log(
+      `Deleted ${ghostsToCleanup.length} ghost${
+        ghostsToCleanup.length === 1 ? "" : "s"
+      }`
+    );
+  }
+}
+
+async function synchronize() {
+  const [playerNameResult, tracksResult] = await Promise.all([
+    fetch("https://api.ckal.dk/tmr/username", {
+      headers: { Authorization: await getAccessToken() },
+    }),
+    fetch("https://api.ckal.dk/tmr/tracks", {
+      headers: { Authorization: await getAccessToken() },
+    }),
+  ]);
+
+  if (!playerNameResult.ok || !tracksResult.ok) {
+    console.log("An error occurred");
+    return;
+  }
+
+  const tracks: Track[] = await tracksResult.json();
+  const playerName: string = (await playerNameResult.json()).username;
+
+  const otherGhosts: string[] = [];
+
+  tracks.forEach((t) => {
+    Object.entries(t.records)
+      .filter(([name]) => name !== playerName)
+      .forEach(([, ghost]) =>
+        otherGhosts.push(ghost.fileName.replace("<>", "__").split("/")[1])
+      );
+  });
+
+  const existingGhosts = fs
+    .readdirSync(targetFolder)
+    .filter((name) => name.includes(".Replay.gbx"));
+
+  const ghostsToDownload = otherGhosts.filter(
+    (g) => !existingGhosts.includes(g)
+  );
+
+  if (ghostsToDownload.length === 0) {
+    console.log("No new ghosts");
+    return;
+  }
+
+  const answer = prompt(
+    `${ghostsToDownload.length} new ghost${
+      ghostsToDownload.length === 1 ? "" : "s"
+    }. Download now? (Y/n): `
+  );
+
+  if (answer.toLowerCase() === "y" || answer === "") {
+    console.log(
+      `Downloading new ghost${ghostsToDownload.length === 1 ? "" : "s"}...`
+    );
+    await Promise.all(
+      ghostsToDownload.map(async (ghost) => {
+        register[ghost] = Date.now() + 30 * 1000;
+        await downloadFile(ghost.replace("__", "<>"), targetFolder);
+        console.log(`Downloaded ghost on ${ghost.split("_")[1]}`);
+      })
+    );
+  }
+
+  cleanUp();
+}
 
 async function uploadGhostIfFaster(filename: string) {
   if (!filename.includes(".Replay.gbx")) {

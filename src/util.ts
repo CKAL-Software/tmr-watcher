@@ -1,3 +1,10 @@
+import fetch from "node-fetch";
+import fs from "fs";
+import stream from "stream";
+import { promisify } from "util";
+import { BUCKET_URL } from "./definitions";
+import path from "path";
+
 export function msToLaptime(msIn: number | undefined) {
   if (msIn === undefined) {
     return "";
@@ -29,5 +36,20 @@ export function msToLaptime(msIn: number | undefined) {
       .padStart(mins > 0 ? 2 : 0, "0")}:${Math.floor(thousands / 10)
       .toString()
       .padStart(2, "0")}`
+  );
+}
+
+export async function downloadFile(fileName: string, targetFolder: string) {
+  const pipeline = promisify(stream.pipeline);
+
+  const response = await fetch(`${BUCKET_URL}/ghosts/${fileName}`);
+
+  if (!response.ok) {
+    throw new Error(`unexpected response ${response.statusText}`);
+  }
+
+  await pipeline(
+    response.body,
+    fs.createWriteStream(path.join(targetFolder, fileName.replace("<>", "__")))
   );
 }
