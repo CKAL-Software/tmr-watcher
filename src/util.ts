@@ -1,4 +1,4 @@
-import readline from "readline";
+import readlineSync from "readline-sync";
 import fetch from "node-fetch";
 import fs from "fs";
 import stream from "stream";
@@ -55,16 +55,9 @@ export async function downloadFile(fileName: string, targetFolder: string) {
   );
 }
 
-export function question(query: string): Promise<string> {
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-
-  return new Promise((resolve) =>
-    rl.question(query, (ans: string) => {
-      rl.close();
-      resolve(ans);
-    })
+export function question(query: string, mask?: boolean): string {
+  return readlineSync.question(
+    query,
+    mask ? { hideEchoBack: true, mask: "*" } : undefined
   );
 }

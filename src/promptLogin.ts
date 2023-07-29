@@ -1,8 +1,8 @@
 import { question } from "./util";
 
 export async function getEmailPassword() {
-  const email = await question("CKAL email: ");
-  const password = await question("Password: ");
+  const email = question("CKAL email: ");
+  const password = question("Password: ", true);
 
   return { email, password };
 }

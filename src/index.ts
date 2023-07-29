@@ -1,5 +1,5 @@
 import fetch from "node-fetch";
-import { getAccessToken } from "./credentialsHandler";
+import { getAccessToken, login, logout } from "./credentialsHandler";
 import { downloadFile, question } from "./util";
 import FormData from "form-data";
 import fs from "fs";
@@ -36,13 +36,19 @@ const targetFolder = "..";
 
   while (true) {
     console.log();
-    const input = await question("(E)xit, (S)ync, (C)lean up: ");
+    const input = question("(E)xit, (S)ync, (C)lean up, (L)og out: ");
     if (input.toLowerCase() === "e") {
       process.exit();
     } else if (input.toLowerCase() === "s") {
       await synchronize();
     } else if (input.toLowerCase() === "c") {
       cleanUp();
+    } else if (input.toLowerCase() === "l") {
+      logout();
+      console.log("Logged out...");
+      await login();
+    } else {
+      console.log("Input not recognized");
     }
   }
 })();
@@ -75,7 +81,7 @@ async function cleanUp() {
       } can be deleted:`
     );
     ghostsToCleanup.forEach((g) => console.log(`- ${g}`));
-    const answer = await question("Delete now? (Y/n): ");
+    const answer = question("Delete now? (Y/n): ");
 
     if (answer.toLowerCase() === "y" || answer === "") {
       ghostsToCleanup.forEach((g) => fs.rmSync(path.join(targetFolder, g)));
@@ -121,7 +127,7 @@ async function synchronize() {
     return;
   }
 
-  const answer = await question(
+  const answer = question(
     `${ghostsToDownload.length} new ghost${
       ghostsToDownload.length === 1 ? "" : "s"
     }. Download now? (Y/n): `
