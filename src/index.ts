@@ -97,14 +97,9 @@ function cleanUp() {
 }
 
 async function synchronize() {
-  const [playerNameResult, tracksResult] = await Promise.all([
-    fetch("https://api.ckal.dk/tmr/username", {
+  const tracksResult = await fetch("https://api.ckal.dk/tmr/tracks", {
       headers: { Authorization: await getAccessToken() },
-    }),
-    fetch("https://api.ckal.dk/tmr/tracks", {
-      headers: { Authorization: await getAccessToken() },
-    }),
-  ]);
+    })
 
   if (!playerNameResult.ok || !tracksResult.ok) {
     console.log("An error occurred");
@@ -112,13 +107,11 @@ async function synchronize() {
   }
 
   const tracks: Track[] = await tracksResult.json();
-  const playerName: string = (await playerNameResult.json()).username;
 
   const otherGhosts: string[] = [];
 
   tracks.forEach((t) => {
     Object.entries(t.records)
-      .filter(([name]) => name !== playerName)
       .forEach(([, ghost]) =>
         otherGhosts.push(ghost.fileName.replace("<>", "__").split("/")[1])
       );
