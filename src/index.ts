@@ -53,7 +53,7 @@ const targetFolder = "..";
   }
 })();
 
-async function cleanUp() {
+function cleanUp() {
   const ghosts = fs
     .readdirSync(targetFolder)
     .filter((name) => name.includes(".Replay.gbx"));
@@ -135,9 +135,6 @@ async function synchronize() {
     return;
   }
 
-  console.log(ghostsToDownload.slice(0, 5));
-  console.log(existingGhosts.slice(0, 5));
-
   const answer = question(
     `${ghostsToDownload.length} new ghost${
       ghostsToDownload.length === 1 ? "" : "s"
@@ -167,7 +164,7 @@ async function uploadGhostIfFaster(filename: string) {
 
   const file = fs.readFileSync(filename, "utf-8");
 
-  handleUpload(file);
+  await handleUpload(file);
 }
 
 async function handleUpload(fileName: String) {
