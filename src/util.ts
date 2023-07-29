@@ -5,6 +5,7 @@ import stream from "stream";
 import { promisify } from "util";
 import { BUCKET_URL } from "./definitions";
 import path from "path";
+import readline from "readline";
 
 export function msToLaptime(msIn: number | undefined) {
   if (msIn === undefined) {
@@ -55,9 +56,38 @@ export async function downloadFile(fileName: string, targetFolder: string) {
   );
 }
 
-export function question(query: string, mask?: boolean): string {
-  return readlineSync.question(
-    query,
-    mask ? { hideEchoBack: true, mask: "*" } : undefined
-  );
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+export function question(query: string): Promise<string> {
+  return new Promise((r) => {
+    rl.question(query, (v) => r(v));
+  });
+}
+
+export function hiddenQuestion(query: string): Promise<string> {
+  return new Promise((resolve) => {
+    const onData = (char: string) => {
+      char = char + "";
+      switch (char) {
+        case "\n":
+        case "\r":
+        case "\u0004":
+          process.stdin.removeListener("data", onData);
+          break;
+        default:
+          process.stdout.clearLine(0);
+          process.stdout.cursorTo(0);
+          process.stdout.write(query + Array(rl.line.length + 1).join("*"));
+          break;
+      }
+    };
+    process.stdin.on("data", onData);
+
+    rl.question(query, (value) => {
+      resolve(value);
+    });
+  });
 }

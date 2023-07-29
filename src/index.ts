@@ -19,36 +19,42 @@ const targetFolder = "..";
   await getAccessToken();
 
   console.log();
+  console.log("Commands are: (E)xit, (S)ync, (C)lean up and (L)og out");
+  console.log();
   console.log(`Watching for file changes...`);
 
   fs.watch(targetFolder, (_event, filename) => {
-    console.log(`triggered file change on ${filename}`);
-
     if (!filename?.includes(".Replay.gbx")) {
-      console.log("aborting");
+      return;
+    }
+
+    console.log();
+
+    try {
+      fs.readFileSync(path.join(targetFolder, filename));
+    } catch {
+      console.log(
+        "File change registered but doing nothing as the file was moved out of folder"
+      );
       return;
     }
 
     const modified = fs.statSync(path.join(targetFolder, filename)).mtimeMs;
 
-    console.log(modified, register[filename]);
-
     if (filename && (!register[filename] || register[filename] < modified)) {
-      console.log("got in");
       register[filename] = modified;
       uploadGhostIfFaster(path.join(targetFolder, filename));
     }
   });
 
   while (true) {
-    console.log();
-    const input = question("(E)xit, (S)ync, (C)lean up, (L)og out: ");
+    const input = await question("");
     if (input.toLowerCase() === "e") {
       process.exit();
     } else if (input.toLowerCase() === "s") {
       await synchronize();
     } else if (input.toLowerCase() === "c") {
-      cleanUp();
+      await cleanUp();
     } else if (input.toLowerCase() === "l") {
       logout();
       console.log("Logged out...");
@@ -59,7 +65,7 @@ const targetFolder = "..";
   }
 })();
 
-function cleanUp() {
+async function cleanUp() {
   const ghosts = fs
     .readdirSync(targetFolder)
     .filter((name) => name.includes(".Replay.gbx"));
@@ -87,7 +93,7 @@ function cleanUp() {
       } can be deleted:`
     );
     ghostsToCleanup.forEach((g) => console.log(`- ${g}`));
-    const answer = question("Delete now? (Y/n): ");
+    const answer = await question("Delete now? (Y/n): ");
 
     if (answer.toLowerCase() === "y" || answer === "") {
       ghostsToCleanup.forEach((g) => fs.rmSync(path.join(targetFolder, g)));
@@ -141,7 +147,7 @@ async function synchronize() {
     return;
   }
 
-  const answer = question(
+  const answer = await question(
     `${ghostsToDownload.length} new ghost${
       ghostsToDownload.length === 1 ? "" : "s"
     }. Download now? (Y/n): `
@@ -160,7 +166,7 @@ async function synchronize() {
     );
   }
 
-  cleanUp();
+  await cleanUp();
 }
 
 async function uploadGhostIfFaster(filename: string) {
@@ -168,12 +174,10 @@ async function uploadGhostIfFaster(filename: string) {
     throw new Error(`Tried to upload ${filename} but is not a ghost file`);
   }
 
-  const file = fs.readFileSync(filename, "utf-8");
-
-  await handleUpload(file);
+  await handleUpload(filename);
 }
 
-async function handleUpload(fileName: String) {
+async function handleUpload(fileName: string) {
   console.log(`Attempting to upload ${fileName}`);
 
   const formData = new FormData();
@@ -188,11 +192,5 @@ async function handleUpload(fileName: String) {
     body: formData,
   });
 
-  if (!result.ok) {
-    console.log(result.status, await result.text());
-    return;
-  }
-
-  console.log(result.ok);
-  console.log(`Updated ghost ${fileName}'`);
+  console.log((await result.text()).slice(1, -1));
 }

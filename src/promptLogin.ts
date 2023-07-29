@@ -1,8 +1,8 @@
-import { question } from "./util";
+import { hiddenQuestion, question } from "./util";
 
 export async function getEmailPassword() {
-  const email = question("CKAL email: ");
-  const password = question("Password: ", true);
+  const email = await question("CKAL email: ");
+  const password = await hiddenQuestion("Password: ");
 
   return { email, password };
 }
