@@ -1,3 +1,4 @@
+import readline from "readline";
 import fetch from "node-fetch";
 import fs from "fs";
 import stream from "stream";
@@ -51,5 +52,19 @@ export async function downloadFile(fileName: string, targetFolder: string) {
   await pipeline(
     response.body,
     fs.createWriteStream(path.join(targetFolder, fileName.replace("<>", "__")))
+  );
+}
+
+export function question(query: string): Promise<string> {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  return new Promise((resolve) =>
+    rl.question(query, (ans: string) => {
+      rl.close();
+      resolve(ans);
+    })
   );
 }

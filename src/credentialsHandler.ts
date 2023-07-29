@@ -47,7 +47,7 @@ export async function getAccessToken() {
 
     return credentials.AccessToken + "";
   } catch {
-    const { email, password } = getEmailPassword();
+    const { email, password } = await getEmailPassword();
     await login(email, password);
     return getAccessToken();
   }

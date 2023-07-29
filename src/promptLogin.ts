@@ -1,10 +1,8 @@
-import promptImport from "prompt-sync";
+import { question } from "./util";
 
-const prompt = promptImport({ sigint: true });
-
-export function getEmailPassword() {
-  const email = prompt("CKAL email: ");
-  const password = prompt("Password: ", { echo: "*" });
+export async function getEmailPassword() {
+  const email = await question("CKAL email: ");
+  const password = await question("Password: ");
 
   return { email, password };
 }

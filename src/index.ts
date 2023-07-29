@@ -1,15 +1,13 @@
 import fetch from "node-fetch";
 import { getAccessToken } from "./credentialsHandler";
-import { downloadFile } from "./util";
+import { downloadFile, question } from "./util";
 import FormData from "form-data";
 import fs from "fs";
 import { String } from "aws-sdk/clients/batch";
-import promptImport from "prompt-sync";
 import { Track } from "./definitions";
 import path from "path";
 
 const register: Record<string, number> = {};
-const prompt = promptImport({ sigint: true });
 const targetFolder = "..";
 
 (async () => {
@@ -38,18 +36,18 @@ const targetFolder = "..";
 
   while (true) {
     console.log();
-    const input = prompt("(E)xit, (S)ync, (C)lean up: ");
+    const input = await question("(E)xit, (S)ync, (C)lean up: ");
     if (input.toLowerCase() === "e") {
       process.exit();
     } else if (input.toLowerCase() === "s") {
       await synchronize();
     } else if (input.toLowerCase() === "c") {
-      cleanUp();
+      await cleanUp();
     }
   }
 })();
 
-function cleanUp() {
+async function cleanUp() {
   const ghosts = fs
     .readdirSync(targetFolder)
     .filter((name) => name.includes(".Replay.gbx"));
@@ -77,7 +75,7 @@ function cleanUp() {
       } can be deleted:`
     );
     ghostsToCleanup.forEach((g) => console.log(`- ${g}`));
-    const answer = prompt("Delete now? (Y/n): ");
+    const answer = await question("Delete now? (Y/n): ");
 
     if (answer.toLowerCase() === "y" || answer === "") {
       ghostsToCleanup.forEach((g) => fs.rmSync(path.join(targetFolder, g)));
@@ -131,7 +129,7 @@ async function synchronize() {
     return;
   }
 
-  const answer = prompt(
+  const answer = await question(
     `${ghostsToDownload.length} new ghost${
       ghostsToDownload.length === 1 ? "" : "s"
     }. Download now? (Y/n): `
