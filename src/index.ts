@@ -22,13 +22,19 @@ const targetFolder = "..";
   console.log(`Watching for file changes...`);
 
   fs.watch(targetFolder, (_event, filename) => {
+    console.log(`triggered file change on ${filename}`);
+
     if (!filename?.includes(".Replay.gbx")) {
+      console.log("aborting");
       return;
     }
 
     const modified = fs.statSync(path.join(targetFolder, filename)).mtimeMs;
 
+    console.log(modified, register[filename]);
+
     if (filename && (!register[filename] || register[filename] < modified)) {
+      console.log("got in");
       register[filename] = modified;
       uploadGhostIfFaster(path.join(targetFolder, filename));
     }
