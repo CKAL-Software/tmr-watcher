@@ -1,6 +1,7 @@
 {
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
+    "start": "ts-node src/index.ts",
     "prepare": "husky install",
     "changeVersion": "exec < /dev/tty && node changeVersion.js"
   },

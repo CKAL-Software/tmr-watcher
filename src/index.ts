@@ -13,12 +13,16 @@ const prompt = promptImport({ sigint: true });
 const targetFolder = "jep";
 
 (async () => {
+  const { version } = JSON.parse(fs.readFileSync("package.json").toString());
+
+  console.log();
+  console.log(`Running TrackMania Registry watcher v${version}`);
+
   // make sure accesstoken is fresh
   await getAccessToken();
 
-  const {} = JSON.parse(fs.readFileSync("package.json").toString());
-
-  console.log(`Watching for file changes in this folder ${targetFolder}`);
+  console.log();
+  console.log(`Watching for file changes in folder: ${targetFolder}...`);
 
   fs.watch(targetFolder, (_event, filename) => {
     if (!filename?.includes(".Replay.gbx")) {
@@ -34,6 +38,7 @@ const targetFolder = "jep";
   });
 
   while (true) {
+    console.log();
     const input = prompt("(E)xit, (S)ync, (C)lean up: ");
     if (input.toLowerCase() === "e") {
       process.exit();
@@ -42,7 +47,6 @@ const targetFolder = "jep";
     } else if (input.toLowerCase() === "c") {
       cleanUp();
     }
-    console.log();
   }
 })();
 
