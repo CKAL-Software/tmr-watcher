@@ -22,6 +22,8 @@ const targetFolder = "..";
   console.log("Commands are: (E)xit, (S)ync, (C)lean up and (L)og out");
   console.log();
   console.log(`Watching for file changes...`);
+  console.log();
+  await synchronize();
 
   fs.watch(targetFolder, (_event, filename) => {
     if (!filename?.includes(".Replay.gbx")) {
@@ -161,7 +163,7 @@ async function synchronize() {
       ghostsToDownload.map(async (ghost) => {
         register[ghost] = Date.now() + 30 * 1000;
         await downloadFile(ghost.replace("__", "<>"), targetFolder);
-        console.log(`Downloaded ghost on ${ghost.split("_")[1]}`);
+        console.log(`Downloaded ghost ${ghost.split("__")[0]}`);
       })
     );
   }
