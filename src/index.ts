@@ -28,8 +28,6 @@ const targetFolder = "..";
       return;
     }
 
-    console.log();
-
     try {
       fs.readFileSync(path.join(targetFolder, filename));
     } catch {
