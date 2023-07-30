@@ -17,3 +17,8 @@ export interface Track {
   excluded: boolean;
   diff?: { ms: number; percentage: number };
 }
+
+export interface TrackGroup {
+  groupName: string;
+  tracks: Track[];
+}

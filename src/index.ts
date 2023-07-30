@@ -4,7 +4,7 @@ import { downloadFile, question } from "./util";
 import FormData from "form-data";
 import fs from "fs";
 import { String } from "aws-sdk/clients/batch";
-import { Track } from "./definitions";
+import { Track, TrackGroup } from "./definitions";
 import path from "path";
 
 const register: Record<string, number> = {};
@@ -107,21 +107,23 @@ async function cleanUp() {
 }
 
 async function synchronize() {
-  const [playerNameResult, tracksResult] = await Promise.all([
+  const [playerNameResult, trackGroupsResult] = await Promise.all([
     fetch("https://api.ckal.dk/tmr/username", {
       headers: { Authorization: await getAccessToken() },
     }),
-    fetch("https://api.ckal.dk/tmr/tracks", {
+    fetch("https://api.ckal.dk/tmr/trackgroups", {
       headers: { Authorization: await getAccessToken() },
     }),
   ]);
 
-  if (!playerNameResult.ok || !tracksResult.ok) {
+  if (!playerNameResult.ok || !trackGroupsResult.ok) {
     console.log("An error occurred");
     return;
   }
 
-  const tracks: Track[] = await tracksResult.json();
+  const tracks: Track[] = (
+    (await trackGroupsResult.json()) as TrackGroup[]
+  ).reduce<Track[]>((all, tg) => all.concat(...tg.tracks), []);
   const playerName: string = (await playerNameResult.json()).username;
 
   const otherGhosts: string[] = [];
