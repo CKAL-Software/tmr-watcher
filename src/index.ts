@@ -26,7 +26,7 @@ const targetFolder = "..";
   await synchronize();
 
   fs.watch(targetFolder, (_event, filename) => {
-    if (!filename?.includes(".Replay.gbx")) {
+    if (!filename?.includes(".Replay.gbx") || filename.includes("__")) {
       return;
     }
 
