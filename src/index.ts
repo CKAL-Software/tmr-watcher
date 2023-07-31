@@ -33,9 +33,6 @@ const targetFolder = "..";
     try {
       fs.readFileSync(path.join(targetFolder, filename));
     } catch {
-      console.log(
-        "File change registered but doing nothing as the file was moved out of folder"
-      );
       return;
     }
 
