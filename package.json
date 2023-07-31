@@ -1,5 +1,5 @@
 {
-  "version": "2.1.4",
+  "version": "2.2.0",
   "scripts": {
     "build": "parcel build src/index.ts --out-file bundle.js --target node",
     "start": "node dist/bundle.js",

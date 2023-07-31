@@ -9,14 +9,17 @@ import path from "path";
 
 const register: Record<string, number> = {};
 const targetFolder = "..";
+let playerName = "";
 
 (async () => {
   const { version } = JSON.parse(fs.readFileSync("package.json").toString());
 
   console.log(`Running TrackMania Registry watcher v${version}`);
 
-  // make sure accesstoken is fresh
-  await getAccessToken();
+  const result = await fetch("https://api.ckal.dk/tmr/username", {
+    headers: { Authorization: await getAccessToken() },
+  });
+  playerName = (await result.json()).username;
 
   console.log();
   console.log("Commands are: (E)xit, (S)ync, (C)lean up and (L)og out");
@@ -26,7 +29,11 @@ const targetFolder = "..";
   await synchronize();
 
   fs.watch(targetFolder, (_event, filename) => {
-    if (!filename?.includes(".Replay.gbx") || filename.includes("__")) {
+    if (
+      !filename?.includes(".Replay.gbx") ||
+      filename.includes("__") ||
+      !filename.includes(playerName)
+    ) {
       return;
     }
 
@@ -40,7 +47,7 @@ const targetFolder = "..";
 
     if (filename && (!register[filename] || register[filename] < modified)) {
       register[filename] = modified;
-      uploadGhostIfFaster(path.join(targetFolder, filename));
+      tryUpload(path.join(targetFolder, filename));
     }
   });
 
@@ -104,16 +111,11 @@ async function cleanUp() {
 }
 
 async function synchronize() {
-  const [playerNameResult, trackGroupsResult] = await Promise.all([
-    fetch("https://api.ckal.dk/tmr/username", {
-      headers: { Authorization: await getAccessToken() },
-    }),
-    fetch("https://api.ckal.dk/tmr/trackgroups", {
-      headers: { Authorization: await getAccessToken() },
-    }),
-  ]);
+  const trackGroupsResult = await fetch("https://api.ckal.dk/tmr/trackgroups", {
+    headers: { Authorization: await getAccessToken() },
+  });
 
-  if (!playerNameResult.ok || !trackGroupsResult.ok) {
+  if (!trackGroupsResult.ok) {
     console.log("An error occurred");
     return;
   }
@@ -121,7 +123,6 @@ async function synchronize() {
   const tracks: Track[] = (
     (await trackGroupsResult.json()) as TrackGroup[]
   ).reduce<Track[]>((all, tg) => all.concat(...tg.tracks), []);
-  const playerName: string = (await playerNameResult.json()).username;
 
   const otherGhosts: string[] = [];
 
@@ -168,16 +169,10 @@ async function synchronize() {
   await cleanUp();
 }
 
-async function uploadGhostIfFaster(filename: string) {
-  if (!filename.includes(".Replay.gbx")) {
-    throw new Error(`Tried to upload ${filename} but is not a ghost file`);
-  }
+async function tryUpload(fileName: string) {
+  const trackName = fileName.split(".")[0].split("_")[1];
 
-  await handleUpload(filename);
-}
-
-async function handleUpload(fileName: string) {
-  console.log(`Attempting to upload ${fileName}`);
+  console.log(`Attempting to upload ghost on ${trackName}`);
 
   const formData = new FormData();
   formData.append("file", fs.createReadStream(fileName));
