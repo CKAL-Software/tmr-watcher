@@ -170,7 +170,7 @@ async function synchronize() {
 }
 
 async function tryUpload(fileName: string) {
-  const trackName = fileName.split(".")[0].split("_")[1];
+  const trackName = (fileName.split(".").at(-3) || "").split("_")[1];
 
   console.log(`Attempting to upload ghost on ${trackName}`);
 
