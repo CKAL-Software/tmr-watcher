@@ -1,0 +1,3746 @@
+[
+  {
+    "name": "A01-Race",
+    "records": {
+      "Casper": {
+        "time": 24340,
+        "fileName": "ghosts/Casper_A01-Race<>24340.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 24450,
+        "fileName": "ghosts/Kasper_A01-Race<>24450.Replay.gbx",
+        "lastUpdated": 1690288790000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -110, "percentage": -0.4519309778143077 }
+  },
+  {
+    "name": "A02-Race",
+    "records": {
+      "Casper": {
+        "time": 15990,
+        "fileName": "ghosts/Casper_A02-Race<>15990.Replay.gbx",
+        "lastUpdated": 1690146847000
+      },
+      "Kasper": {
+        "time": 16230,
+        "fileName": "ghosts/Kasper_A02-Race<>16230.Replay.gbx",
+        "lastUpdated": 1690284220000
+      }
+    },
+    "lastUpdated": 1690284220000,
+    "excluded": false,
+    "diff": { "ms": -240, "percentage": -1.5009380863039379 }
+  },
+  {
+    "name": "A03-Race",
+    "records": {
+      "Casper": {
+        "time": 18660,
+        "fileName": "ghosts/Casper_A03-Race<>18660.Replay.gbx",
+        "lastUpdated": 1690147220000
+      },
+      "Kasper": {
+        "time": 18670,
+        "fileName": "ghosts/Kasper_A03-Race<>18670.Replay.gbx",
+        "lastUpdated": 1690048283000
+      }
+    },
+    "lastUpdated": 1690147220000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.0535905680600246 }
+  },
+  {
+    "name": "A04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 5860,
+        "fileName": "ghosts/Casper_A04-Acrobatic<>5860.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 5880,
+        "fileName": "ghosts/Kasper_A04-Acrobatic<>5880.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.34129692832765013 }
+  },
+  {
+    "name": "A05-Race",
+    "records": {
+      "Casper": {
+        "time": 16790,
+        "fileName": "ghosts/Casper_A05-Race<>16790.Replay.gbx",
+        "lastUpdated": 1690327329000
+      },
+      "Kasper": {
+        "time": 16910,
+        "fileName": "ghosts/Kasper_A05-Race<>16910.Replay.gbx",
+        "lastUpdated": 1691262782000
+      }
+    },
+    "lastUpdated": 1691262782000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.7147111375819026 }
+  },
+  {
+    "name": "A06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 28570,
+        "fileName": "ghosts/Casper_A06-Obstacle<>28570.Replay.gbx",
+        "lastUpdated": 1690235575000
+      },
+      "Kasper": {
+        "time": 19220,
+        "fileName": "ghosts/Kasper_A06-Obstacle<>19220.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": 9350, "percentage": 48.64724245577523 }
+  },
+  {
+    "name": "A07-Race",
+    "records": {
+      "Casper": {
+        "time": 27560,
+        "fileName": "ghosts/Casper_A07-Race<>27560.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 27890,
+        "fileName": "ghosts/Kasper_A07-Race<>27890.Replay.gbx",
+        "lastUpdated": 1691428700000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -330, "percentage": -1.1973875181422455 }
+  },
+  {
+    "name": "A08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 60410,
+        "fileName": "ghosts/Casper_A08-Endurance<>60410.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 63750,
+        "fileName": "ghosts/Kasper_A08-Endurance<>63750.Replay.gbx",
+        "lastUpdated": 1690390961000
+      }
+    },
+    "lastUpdated": 1690390961000,
+    "excluded": false,
+    "diff": { "ms": -3340, "percentage": -5.528885946035422 }
+  },
+  {
+    "name": "A09-Race",
+    "records": {
+      "Casper": {
+        "time": 25780,
+        "fileName": "ghosts/Casper_A09-Race<>25780.Replay.gbx",
+        "lastUpdated": 1690150174000
+      },
+      "Kasper": {
+        "time": 26250,
+        "fileName": "ghosts/Kasper_A09-Race<>26250.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690150174000,
+    "excluded": false,
+    "diff": { "ms": -470, "percentage": -1.8231186966640722 }
+  },
+  {
+    "name": "A10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 9510,
+        "fileName": "ghosts/Casper_A10-Acrobatic<>9510.Replay.gbx",
+        "lastUpdated": 1690150609000
+      },
+      "Kasper": {
+        "time": 9650,
+        "fileName": "ghosts/Kasper_A10-Acrobatic<>9650.Replay.gbx",
+        "lastUpdated": 1691321799000
+      }
+    },
+    "lastUpdated": 1691321799000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -1.4721345951629772 }
+  },
+  {
+    "name": "A11-Race",
+    "records": {
+      "Casper": {
+        "time": 19290,
+        "fileName": "ghosts/Casper_A11-Race<>19290.Replay.gbx",
+        "lastUpdated": 1690233528000
+      },
+      "Kasper": {
+        "time": 19300,
+        "fileName": "ghosts/Kasper_A11-Race<>19300.Replay.gbx",
+        "lastUpdated": 1690198596000
+      }
+    },
+    "lastUpdated": 1690233528000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.051840331778119086 }
+  },
+  {
+    "name": "A12-Speed",
+    "records": {
+      "Casper": {
+        "time": 19010,
+        "fileName": "ghosts/Casper_A12-Speed<>19010.Replay.gbx",
+        "lastUpdated": 1690203985000
+      },
+      "Kasper": {
+        "time": 19050,
+        "fileName": "ghosts/Kasper_A12-Speed<>19050.Replay.gbx",
+        "lastUpdated": 1690392452000
+      }
+    },
+    "lastUpdated": 1690392452000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.2104155707522315 }
+  },
+  {
+    "name": "A13-Race",
+    "records": {
+      "Casper": {
+        "time": 31560,
+        "fileName": "ghosts/Casper_A13-Race<>31560.Replay.gbx",
+        "lastUpdated": 1690204598000
+      },
+      "Kasper": {
+        "time": 31700,
+        "fileName": "ghosts/Kasper_A13-Race<>31700.Replay.gbx",
+        "lastUpdated": 1690797378000
+      }
+    },
+    "lastUpdated": 1690797378000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -0.44359949302914536 }
+  },
+  {
+    "name": "A14-Race",
+    "records": {
+      "Casper": {
+        "time": 21910,
+        "fileName": "ghosts/Casper_A14-Race<>21910.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 21940,
+        "fileName": "ghosts/Kasper_A14-Race<>21940.Replay.gbx",
+        "lastUpdated": 1691256953000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.1369237790963096 }
+  },
+  {
+    "name": "A15-Speed",
+    "records": {
+      "Casper": {
+        "time": 25040,
+        "fileName": "ghosts/Casper_A15-Speed<>25040.Replay.gbx",
+        "lastUpdated": 1689979993000
+      },
+      "Kasper": {
+        "time": 25070,
+        "fileName": "ghosts/Kasper_A15-Speed<>25070.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.11980830670925702 }
+  },
+  {
+    "name": "B01-Race",
+    "records": {
+      "Casper": {
+        "time": 25920,
+        "fileName": "ghosts/Casper_B01-Race<>25920.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 26180,
+        "fileName": "ghosts/Kasper_B01-Race<>26180.Replay.gbx",
+        "lastUpdated": 1690457177000
+      }
+    },
+    "lastUpdated": 1690457177000,
+    "excluded": false,
+    "diff": { "ms": -260, "percentage": -1.0030864197530853 }
+  },
+  {
+    "name": "B02-Race",
+    "records": {
+      "Casper": {
+        "time": 26690,
+        "fileName": "ghosts/Casper_B02-Race<>26690.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 27320,
+        "fileName": "ghosts/Kasper_B02-Race<>27320.Replay.gbx",
+        "lastUpdated": 1690458368000
+      }
+    },
+    "lastUpdated": 1690458368000,
+    "excluded": false,
+    "diff": { "ms": -630, "percentage": -2.360434619707763 }
+  },
+  {
+    "name": "B03-Race",
+    "records": {
+      "Casper": {
+        "time": 27000,
+        "fileName": "ghosts/Casper_B03-Race<>27000.Replay.gbx",
+        "lastUpdated": 1690576517000
+      },
+      "Kasper": {
+        "time": 27680,
+        "fileName": "ghosts/Kasper_B03-Race<>27680.Replay.gbx",
+        "lastUpdated": 1690459879000
+      }
+    },
+    "lastUpdated": 1690576517000,
+    "excluded": false,
+    "diff": { "ms": -680, "percentage": -2.51851851851852 }
+  },
+  {
+    "name": "B04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 12900,
+        "fileName": "ghosts/Casper_B04-Acrobatic<>12900.Replay.gbx",
+        "lastUpdated": 1690205105000
+      },
+      "Kasper": {
+        "time": 12920,
+        "fileName": "ghosts/Kasper_B04-Acrobatic<>12920.Replay.gbx",
+        "lastUpdated": 1690483476000
+      }
+    },
+    "lastUpdated": 1690483476000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.15503875968991832 }
+  },
+  {
+    "name": "B05-Race",
+    "records": {
+      "Casper": {
+        "time": 25610,
+        "fileName": "ghosts/Casper_B05-Race<>25610.Replay.gbx",
+        "lastUpdated": 1690206030000
+      },
+      "Kasper": {
+        "time": 26120,
+        "fileName": "ghosts/Kasper_B05-Race<>26120.Replay.gbx",
+        "lastUpdated": 1690471949000
+      }
+    },
+    "lastUpdated": 1690471949000,
+    "excluded": false,
+    "diff": { "ms": -510, "percentage": -1.991409605622807 }
+  },
+  {
+    "name": "B06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 27240,
+        "fileName": "ghosts/Casper_B06-Obstacle<>27240.Replay.gbx",
+        "lastUpdated": 1690838098000
+      },
+      "Kasper": {
+        "time": 27280,
+        "fileName": "ghosts/Kasper_B06-Obstacle<>27280.Replay.gbx",
+        "lastUpdated": 1690485109000
+      }
+    },
+    "lastUpdated": 1690838098000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.1468428781204123 }
+  },
+  {
+    "name": "B07-Race",
+    "records": {
+      "Casper": {
+        "time": 29150,
+        "fileName": "ghosts/Casper_B07-Race<>29150.Replay.gbx",
+        "lastUpdated": 1690833087000
+      },
+      "Kasper": {
+        "time": 29400,
+        "fileName": "ghosts/Kasper_B07-Race<>29400.Replay.gbx",
+        "lastUpdated": 1690486503000
+      }
+    },
+    "lastUpdated": 1690833087000,
+    "excluded": false,
+    "diff": { "ms": -250, "percentage": -0.8576329331046351 }
+  },
+  {
+    "name": "B08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 100720,
+        "fileName": "ghosts/Casper_B08-Endurance<>100720.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 101740,
+        "fileName": "ghosts/Kasper_B08-Endurance<>101740.Replay.gbx",
+        "lastUpdated": 1690535298000
+      }
+    },
+    "lastUpdated": 1690535298000,
+    "excluded": false,
+    "diff": { "ms": -1020, "percentage": -1.0127084988085677 }
+  },
+  {
+    "name": "B09-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13710,
+        "fileName": "ghosts/Casper_B09-Acrobatic<>13710.Replay.gbx",
+        "lastUpdated": 1690666563000
+      },
+      "Kasper": {
+        "time": 14780,
+        "fileName": "ghosts/Kasper_B09-Acrobatic<>14780.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690666563000,
+    "excluded": false,
+    "diff": { "ms": -1070, "percentage": -7.804522246535384 }
+  },
+  {
+    "name": "B10-Speed",
+    "records": {
+      "Casper": {
+        "time": 37580,
+        "fileName": "ghosts/Casper_B10-Speed<>37580.Replay.gbx",
+        "lastUpdated": 1690834384000
+      },
+      "Kasper": {
+        "time": 37640,
+        "fileName": "ghosts/Kasper_B10-Speed<>37640.Replay.gbx",
+        "lastUpdated": 1690538142000
+      }
+    },
+    "lastUpdated": 1690834384000,
+    "excluded": false,
+    "diff": { "ms": -60, "percentage": -0.159659393294298 }
+  },
+  {
+    "name": "B11-Race",
+    "records": {
+      "Casper": {
+        "time": 30720,
+        "fileName": "ghosts/Casper_B11-Race<>30720.Replay.gbx",
+        "lastUpdated": 1690664121000
+      },
+      "Kasper": {
+        "time": 31010,
+        "fileName": "ghosts/Kasper_B11-Race<>31010.Replay.gbx",
+        "lastUpdated": 1690541738000
+      }
+    },
+    "lastUpdated": 1690664121000,
+    "excluded": false,
+    "diff": { "ms": -290, "percentage": -0.9440104166666741 }
+  },
+  {
+    "name": "B12-Race",
+    "records": {
+      "Casper": {
+        "time": 44200,
+        "fileName": "ghosts/Casper_B12-Race<>44200.Replay.gbx",
+        "lastUpdated": 1690833510000
+      },
+      "Kasper": {
+        "time": 44920,
+        "fileName": "ghosts/Kasper_B12-Race<>44920.Replay.gbx",
+        "lastUpdated": 1690543370000
+      }
+    },
+    "lastUpdated": 1690833510000,
+    "excluded": false,
+    "diff": { "ms": -720, "percentage": -1.6289592760180938 }
+  },
+  {
+    "name": "B13-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 25380,
+        "fileName": "ghosts/Casper_B13-Obstacle<>25380.Replay.gbx",
+        "lastUpdated": 1690206685000
+      },
+      "Kasper": {
+        "time": 25500,
+        "fileName": "ghosts/Kasper_B13-Obstacle<>25500.Replay.gbx",
+        "lastUpdated": 1690565989000
+      }
+    },
+    "lastUpdated": 1690565989000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.47281323877068626 }
+  },
+  {
+    "name": "B14-Speed",
+    "records": {
+      "Casper": {
+        "time": 32920,
+        "fileName": "ghosts/Casper_B14-Speed<>32920.Replay.gbx",
+        "lastUpdated": 1690833950000
+      },
+      "Kasper": {
+        "time": 33680,
+        "fileName": "ghosts/Kasper_B14-Speed<>33680.Replay.gbx",
+        "lastUpdated": 1691258707000
+      }
+    },
+    "lastUpdated": 1691258707000,
+    "excluded": false,
+    "diff": { "ms": -760, "percentage": -2.3086269744835963 }
+  },
+  {
+    "name": "B15-Race",
+    "records": {
+      "Casper": {
+        "time": 40650,
+        "fileName": "ghosts/Casper_B15-Race<>40650.Replay.gbx",
+        "lastUpdated": 1690754825000
+      },
+      "Kasper": {
+        "time": 40870,
+        "fileName": "ghosts/Kasper_B15-Race<>40870.Replay.gbx",
+        "lastUpdated": 1690655453000
+      }
+    },
+    "lastUpdated": 1690754825000,
+    "excluded": false,
+    "diff": { "ms": -220, "percentage": -0.5412054120541132 }
+  },
+  {
+    "name": "C01-Race",
+    "records": {
+      "Casper": {
+        "time": 28450,
+        "fileName": "ghosts/Casper_C01-Race<>28450.Replay.gbx",
+        "lastUpdated": 1690207178000
+      },
+      "Kasper": {
+        "time": 30970,
+        "fileName": "ghosts/Kasper_C01-Race<>30970.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207178000,
+    "excluded": false,
+    "diff": { "ms": -2520, "percentage": -8.857644991212643 }
+  },
+  {
+    "name": "C02-Race",
+    "records": {
+      "Casper": {
+        "time": 42120,
+        "fileName": "ghosts/Casper_C02-Race<>42120.Replay.gbx",
+        "lastUpdated": 1690917056000
+      },
+      "Kasper": {
+        "time": 44190,
+        "fileName": "ghosts/Kasper_C02-Race<>44190.Replay.gbx",
+        "lastUpdated": 1690655486000
+      }
+    },
+    "lastUpdated": 1690917056000,
+    "excluded": false,
+    "diff": { "ms": -2070, "percentage": -4.914529914529919 }
+  },
+  {
+    "name": "C03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13330,
+        "fileName": "ghosts/Casper_C03-Acrobatic<>13330.Replay.gbx",
+        "lastUpdated": 1690207546000
+      },
+      "Kasper": {
+        "time": 14340,
+        "fileName": "ghosts/Kasper_C03-Acrobatic<>14340.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207546000,
+    "excluded": false,
+    "diff": { "ms": -1010, "percentage": -7.576894223555897 }
+  },
+  {
+    "name": "C04-Race",
+    "records": {
+      "Casper": {
+        "time": 39690,
+        "fileName": "ghosts/Casper_C04-Race<>39690.Replay.gbx",
+        "lastUpdated": 1690917436000
+      },
+      "Kasper": {
+        "time": 40750,
+        "fileName": "ghosts/Kasper_C04-Race<>40750.Replay.gbx",
+        "lastUpdated": 1690717908000
+      }
+    },
+    "lastUpdated": 1690917436000,
+    "excluded": false,
+    "diff": { "ms": -1060, "percentage": -2.6706979087931515 }
+  },
+  {
+    "name": "C05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 113990,
+        "fileName": "ghosts/Casper_C05-Endurance<>113990.Replay.gbx",
+        "lastUpdated": 1690918479000
+      },
+      "Kasper": {
+        "time": 115730,
+        "fileName": "ghosts/Kasper_C05-Endurance<>115730.Replay.gbx",
+        "lastUpdated": 1691329971000
+      }
+    },
+    "lastUpdated": 1691329971000,
+    "excluded": false,
+    "diff": { "ms": -1740, "percentage": -1.5264496885691647 }
+  },
+  {
+    "name": "C06-Speed",
+    "records": {
+      "Casper": {
+        "time": 54960,
+        "fileName": "ghosts/Casper_C06-Speed<>54960.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55390,
+        "fileName": "ghosts/Kasper_C06-Speed<>55390.Replay.gbx",
+        "lastUpdated": 1690719133000
+      }
+    },
+    "lastUpdated": 1690719133000,
+    "excluded": false,
+    "diff": { "ms": -430, "percentage": -0.7823871906841307 }
+  },
+  {
+    "name": "C07-Race",
+    "records": {
+      "Casper": {
+        "time": 40270,
+        "fileName": "ghosts/Casper_C07-Race<>40270.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 41640,
+        "fileName": "ghosts/Kasper_C07-Race<>41640.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1370, "percentage": -3.4020362552768857 }
+  },
+  {
+    "name": "C08-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 26510,
+        "fileName": "ghosts/Casper_C08-Obstacle<>26510.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 29350,
+        "fileName": "ghosts/Kasper_C08-Obstacle<>29350.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2840, "percentage": -10.7129385137684 }
+  },
+  {
+    "name": "C09-Race",
+    "records": {
+      "Casper": {
+        "time": 49630,
+        "fileName": "ghosts/Casper_C09-Race<>49630.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 50120,
+        "fileName": "ghosts/Kasper_C09-Race<>50120.Replay.gbx",
+        "lastUpdated": 1690721770000
+      }
+    },
+    "lastUpdated": 1690721770000,
+    "excluded": false,
+    "diff": { "ms": -490, "percentage": -0.9873060648801113 }
+  },
+  {
+    "name": "C10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14880,
+        "fileName": "ghosts/Casper_C10-Acrobatic<>14880.Replay.gbx",
+        "lastUpdated": 1690919388000
+      },
+      "Kasper": {
+        "time": 15810,
+        "fileName": "ghosts/Kasper_C10-Acrobatic<>15810.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690919388000,
+    "excluded": false,
+    "diff": { "ms": -930, "percentage": -6.25 }
+  },
+  {
+    "name": "C11-Race",
+    "records": {
+      "Casper": {
+        "time": 49600,
+        "fileName": "ghosts/Casper_C11-Race<>49600.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 51960,
+        "fileName": "ghosts/Kasper_C11-Race<>51960.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2360, "percentage": -4.758064516129035 }
+  },
+  {
+    "name": "C12-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 32340,
+        "fileName": "ghosts/Casper_C12-Obstacle<>32340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 33500,
+        "fileName": "ghosts/Kasper_C12-Obstacle<>33500.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1160, "percentage": -3.5868893011750114 }
+  },
+  {
+    "name": "C13-Race",
+    "records": {
+      "Casper": {
+        "time": 44640,
+        "fileName": "ghosts/Casper_C13-Race<>44640.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 46870,
+        "fileName": "ghosts/Kasper_C13-Race<>46870.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2230, "percentage": -4.9955197132616425 }
+  },
+  {
+    "name": "C14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 115920,
+        "fileName": "ghosts/Casper_C14-Endurance<>115920.Replay.gbx",
+        "lastUpdated": 1690919973000
+      },
+      "Kasper": {
+        "time": 127080,
+        "fileName": "ghosts/Kasper_C14-Endurance<>127080.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": -11160, "percentage": -9.627329192546586 }
+  },
+  {
+    "name": "C15-Speed",
+    "records": {
+      "Casper": {
+        "time": 49840,
+        "fileName": "ghosts/Casper_C15-Speed<>49840.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 53560,
+        "fileName": "ghosts/Kasper_C15-Speed<>53560.Replay.gbx",
+        "lastUpdated": 1690021661000
+      }
+    },
+    "lastUpdated": 1690021661000,
+    "excluded": false,
+    "diff": { "ms": -3720, "percentage": -7.4638844301765594 }
+  },
+  {
+    "name": "D01-Endurance",
+    "records": {
+      "Casper": {
+        "time": 149980,
+        "fileName": "ghosts/Casper_D01-Endurance<>149980.Replay.gbx",
+        "lastUpdated": 1690232885000
+      },
+      "Kasper": {
+        "time": 156820,
+        "fileName": "ghosts/Kasper_D01-Endurance<>156820.Replay.gbx",
+        "lastUpdated": 1690821495000
+      }
+    },
+    "lastUpdated": 1690821495000,
+    "excluded": false,
+    "diff": { "ms": -6840, "percentage": -4.560608081077477 }
+  },
+  {
+    "name": "D02-Race",
+    "records": {
+      "Casper": {
+        "time": 54910,
+        "fileName": "ghosts/Casper_D02-Race<>54910.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 56510,
+        "fileName": "ghosts/Kasper_D02-Race<>56510.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.913859042068845 }
+  },
+  {
+    "name": "D03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 16400,
+        "fileName": "ghosts/Casper_D03-Acrobatic<>16400.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 16580,
+        "fileName": "ghosts/Kasper_D03-Acrobatic<>16580.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.097560975609757 }
+  },
+  {
+    "name": "D04-Race",
+    "records": {
+      "Casper": {
+        "time": 52170,
+        "fileName": "ghosts/Casper_D04-Race<>52170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55090,
+        "fileName": "ghosts/Kasper_D04-Race<>55090.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -2920, "percentage": -5.597086448150268 }
+  },
+  {
+    "name": "D05-Race",
+    "records": {
+      "Casper": {
+        "time": 74340,
+        "fileName": "ghosts/Casper_D05-Race<>74340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 74740,
+        "fileName": "ghosts/Kasper_D05-Race<>74740.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -400, "percentage": -0.5380683346785098 }
+  },
+  {
+    "name": "D06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 64880,
+        "fileName": "ghosts/Casper_D06-Obstacle<>64880.Replay.gbx",
+        "lastUpdated": 1690404731000
+      },
+      "Kasper": {
+        "time": 73890,
+        "fileName": "ghosts/Kasper_D06-Obstacle<>73890.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690404731000,
+    "excluded": false,
+    "diff": { "ms": -9010, "percentage": -13.887176325524052 }
+  },
+  {
+    "name": "D07-Race",
+    "records": {
+      "Casper": {
+        "time": 61450,
+        "fileName": "ghosts/Casper_D07-Race<>61450.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 63010,
+        "fileName": "ghosts/Kasper_D07-Race<>63010.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1560, "percentage": -2.5386493083807915 }
+  },
+  {
+    "name": "D08-Speed",
+    "records": {
+      "Casper": {
+        "time": 54740,
+        "fileName": "ghosts/Casper_D08-Speed<>54740.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55200,
+        "fileName": "ghosts/Kasper_D08-Speed<>55200.Replay.gbx",
+        "lastUpdated": 1691325607000
+      }
+    },
+    "lastUpdated": 1691325607000,
+    "excluded": false,
+    "diff": { "ms": -460, "percentage": -0.8403361344537785 }
+  },
+  {
+    "name": "D09-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 45930,
+        "fileName": "ghosts/Casper_D09-Obstacle<>45930.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 48110,
+        "fileName": "ghosts/Kasper_D09-Obstacle<>48110.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2180, "percentage": -4.746353146091886 }
+  },
+  {
+    "name": "D10-Race",
+    "records": {
+      "Casper": {
+        "time": 57830,
+        "fileName": "ghosts/Casper_D10-Race<>57830.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 59430,
+        "fileName": "ghosts/Kasper_D10-Race<>59430.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.7667300708974496 }
+  },
+  {
+    "name": "D11-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14060,
+        "fileName": "ghosts/Casper_D11-Acrobatic<>14060.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 14240,
+        "fileName": "ghosts/Kasper_D11-Acrobatic<>14240.Replay.gbx",
+        "lastUpdated": 1690306597000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.2802275960170695 }
+  },
+  {
+    "name": "D12-Speed",
+    "records": {
+      "Casper": {
+        "time": 42060,
+        "fileName": "ghosts/Casper_D12-Speed<>42060.Replay.gbx",
+        "lastUpdated": 1690405193000
+      },
+      "Kasper": {
+        "time": 43440,
+        "fileName": "ghosts/Kasper_D12-Speed<>43440.Replay.gbx",
+        "lastUpdated": 1690822787000
+      }
+    },
+    "lastUpdated": 1690822787000,
+    "excluded": false,
+    "diff": { "ms": -1380, "percentage": -3.2810271041369576 }
+  },
+  {
+    "name": "D13-Race",
+    "records": {
+      "Casper": {
+        "time": 73170,
+        "fileName": "ghosts/Casper_D13-Race<>73170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 77510,
+        "fileName": "ghosts/Kasper_D13-Race<>77510.Replay.gbx",
+        "lastUpdated": 1690455902000
+      }
+    },
+    "lastUpdated": 1690455902000,
+    "excluded": false,
+    "diff": { "ms": -4340, "percentage": -5.931392647259814 }
+  },
+  {
+    "name": "D14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 185980,
+        "fileName": "ghosts/Casper_D14-Endurance<>185980.Replay.gbx",
+        "lastUpdated": 1689971886000
+      },
+      "Kasper": {
+        "time": 197810,
+        "fileName": "ghosts/Kasper_D14-Endurance<>197810.Replay.gbx",
+        "lastUpdated": 1690455896000
+      }
+    },
+    "lastUpdated": 1690455896000,
+    "excluded": false,
+    "diff": { "ms": -11830, "percentage": -6.360899021400157 }
+  },
+  {
+    "name": "D15-Endurance",
+    "records": {
+      "Casper": {
+        "time": 474810,
+        "fileName": "ghosts/Casper_D15-Endurance<>474810.Replay.gbx",
+        "lastUpdated": 1690920652000
+      }
+    },
+    "lastUpdated": 1690920652000,
+    "excluded": false
+  },
+  {
+    "name": "E01-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 46600,
+        "fileName": "ghosts/Casper_E01-Obstacle<>46600.Replay.gbx",
+        "lastUpdated": 1690059691000
+      },
+      "Kasper": {
+        "time": 49610,
+        "fileName": "ghosts/Kasper_E01-Obstacle<>49610.Replay.gbx",
+        "lastUpdated": 1690290575000
+      }
+    },
+    "lastUpdated": 1690290575000,
+    "excluded": false,
+    "diff": { "ms": -3010, "percentage": -6.459227467811157 }
+  },
+  {
+    "name": "E02-Endurance",
+    "records": {
+      "Casper": {
+        "time": 279340,
+        "fileName": "ghosts/Casper_E02-Endurance<>279340.Replay.gbx",
+        "lastUpdated": 1690232104000
+      },
+      "Kasper": {
+        "time": 304460,
+        "fileName": "ghosts/Kasper_E02-Endurance<>304460.Replay.gbx",
+        "lastUpdated": 1690305946000
+      }
+    },
+    "lastUpdated": 1690305946000,
+    "excluded": false,
+    "diff": { "ms": -25120, "percentage": -8.99262547433235 }
+  },
+  {
+    "name": "E03-Endurance",
+    "records": {
+      "Casper": {
+        "time": 383840,
+        "fileName": "ghosts/Casper_E03-Endurance<>383840.Replay.gbx",
+        "lastUpdated": 1690232104000
+      }
+    },
+    "lastUpdated": 1690232104000,
+    "excluded": false
+  },
+  {
+    "name": "E04-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 117330,
+        "fileName": "ghosts/Casper_E04-Obstacle<>117330.Replay.gbx",
+        "lastUpdated": 1690922866000
+      }
+    },
+    "lastUpdated": 1690922866000,
+    "excluded": false
+  },
+  {
+    "name": "E05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 3919660,
+        "fileName": "ghosts/Casper_E05-Endurance<>3919660.Replay.gbx",
+        "lastUpdated": 1690232105000
+      }
+    },
+    "lastUpdated": 1690232105000,
+    "excluded": true
+  },
+  {
+    "name": "kaspererpro",
+    "records": {
+      "Casper": {
+        "time": 41580,
+        "fileName": "ghosts/Casper_kaspererpro<>41580.Replay.gbx",
+        "lastUpdated": 1690058716000
+      },
+      "Kasper": {
+        "time": 42230,
+        "fileName": "ghosts/Kasper_kaspererpro<>42230.Replay.gbx",
+        "lastUpdated": 1690823308000
+      }
+    },
+    "lastUpdated": 1690823308000,
+    "excluded": false,
+    "diff": { "ms": -650, "percentage": -1.5632515632515664 },
+    "fileName": "tracks/kaspererpro.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c1",
+    "records": {
+      "Casper": {
+        "time": 211150,
+        "fileName": "ghosts/Casper_kaspererpro-c1<>211150.Replay.gbx",
+        "lastUpdated": 1691007208000
+      }
+    },
+    "lastUpdated": 1691007208000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c1.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c3",
+    "records": {
+      "Casper": {
+        "time": 384090,
+        "fileName": "ghosts/Casper_kaspererpro-c3<>384090.Replay.gbx",
+        "lastUpdated": 1691095002000
+      }
+    },
+    "lastUpdated": 1691095002000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c3.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro2",
+    "records": {
+      "Casper": {
+        "time": 71940,
+        "fileName": "ghosts/Casper_kaspererpro2<>71940.Replay.gbx",
+        "lastUpdated": 1690058716000
+      },
+      "Kasper": {
+        "time": 77600,
+        "fileName": "ghosts/Kasper_kaspererpro2<>77600.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -5660, "percentage": -7.86766750069503 },
+    "fileName": "tracks/kaspererpro2.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro3",
+    "records": {
+      "Casper": {
+        "time": 41390,
+        "fileName": "ghosts/Casper_kaspererpro3<>41390.Replay.gbx",
+        "lastUpdated": 1690145397000
+      },
+      "Kasper": {
+        "time": 44480,
+        "fileName": "ghosts/Kasper_kaspererpro3<>44480.Replay.gbx",
+        "lastUpdated": 1690136679000
+      }
+    },
+    "lastUpdated": 1690145397000,
+    "excluded": false,
+    "diff": { "ms": -3090, "percentage": -7.465571394056525 },
+    "fileName": "tracks/kaspererpro3.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro4",
+    "records": {
+      "Casper": {
+        "time": 20230,
+        "fileName": "ghosts/Casper_kaspererpro4<>20230.Replay.gbx",
+        "lastUpdated": 1690146040000
+      },
+      "Kasper": {
+        "time": 20680,
+        "fileName": "ghosts/Kasper_kaspererpro4<>20680.Replay.gbx",
+        "lastUpdated": 1690136679000
+      }
+    },
+    "lastUpdated": 1690146040000,
+    "excluded": false,
+    "diff": { "ms": -450, "percentage": -2.2244191794364765 },
+    "fileName": "tracks/kaspererpro4.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro5",
+    "records": {
+      "Casper": {
+        "time": 24540,
+        "fileName": "ghosts/Casper_kaspererpro5<>24540.Replay.gbx",
+        "lastUpdated": 1690238059000
+      },
+      "Kasper": {
+        "time": 27200,
+        "fileName": "ghosts/Kasper_kaspererpro5<>27200.Replay.gbx",
+        "lastUpdated": 1690308024000
+      }
+    },
+    "lastUpdated": 1690308024000,
+    "excluded": false,
+    "diff": { "ms": -2660, "percentage": -10.839445802770985 },
+    "fileName": "tracks/kaspererpro5.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererprotrack",
+    "records": {
+      "Casper": {
+        "time": 160180,
+        "fileName": "ghosts/Casper_kaspererprotrack<>160180.Replay.gbx",
+        "lastUpdated": 1690753804000
+      },
+      "Kasper": {
+        "time": 164410,
+        "fileName": "ghosts/Kasper_kaspererprotrack<>164410.Replay.gbx",
+        "lastUpdated": 1690803511000
+      }
+    },
+    "lastUpdated": 1690803511000,
+    "excluded": false,
+    "diff": { "ms": -4230, "percentage": -2.640779123486081 },
+    "fileName": "tracks/kaspererprotrack.Challenge.Gbx"
+  },
+  {
+    "name": "A01-Race",
+    "records": {
+      "Casper": {
+        "time": 24340,
+        "fileName": "ghosts/Casper_A01-Race<>24340.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 24450,
+        "fileName": "ghosts/Kasper_A01-Race<>24450.Replay.gbx",
+        "lastUpdated": 1690288790000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -110, "percentage": -0.4519309778143077 }
+  },
+  {
+    "name": "A02-Race",
+    "records": {
+      "Casper": {
+        "time": 15990,
+        "fileName": "ghosts/Casper_A02-Race<>15990.Replay.gbx",
+        "lastUpdated": 1690146847000
+      },
+      "Kasper": {
+        "time": 16230,
+        "fileName": "ghosts/Kasper_A02-Race<>16230.Replay.gbx",
+        "lastUpdated": 1690284220000
+      }
+    },
+    "lastUpdated": 1690284220000,
+    "excluded": false,
+    "diff": { "ms": -240, "percentage": -1.5009380863039379 }
+  },
+  {
+    "name": "A03-Race",
+    "records": {
+      "Casper": {
+        "time": 18660,
+        "fileName": "ghosts/Casper_A03-Race<>18660.Replay.gbx",
+        "lastUpdated": 1690147220000
+      },
+      "Kasper": {
+        "time": 18670,
+        "fileName": "ghosts/Kasper_A03-Race<>18670.Replay.gbx",
+        "lastUpdated": 1690048283000
+      }
+    },
+    "lastUpdated": 1690147220000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.0535905680600246 }
+  },
+  {
+    "name": "A04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 5860,
+        "fileName": "ghosts/Casper_A04-Acrobatic<>5860.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 5880,
+        "fileName": "ghosts/Kasper_A04-Acrobatic<>5880.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.34129692832765013 }
+  },
+  {
+    "name": "A05-Race",
+    "records": {
+      "Casper": {
+        "time": 16790,
+        "fileName": "ghosts/Casper_A05-Race<>16790.Replay.gbx",
+        "lastUpdated": 1690327329000
+      },
+      "Kasper": {
+        "time": 16910,
+        "fileName": "ghosts/Kasper_A05-Race<>16910.Replay.gbx",
+        "lastUpdated": 1691262782000
+      }
+    },
+    "lastUpdated": 1691262782000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.7147111375819026 }
+  },
+  {
+    "name": "A06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 28570,
+        "fileName": "ghosts/Casper_A06-Obstacle<>28570.Replay.gbx",
+        "lastUpdated": 1690235575000
+      },
+      "Kasper": {
+        "time": 19220,
+        "fileName": "ghosts/Kasper_A06-Obstacle<>19220.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": 9350, "percentage": 48.64724245577523 }
+  },
+  {
+    "name": "A07-Race",
+    "records": {
+      "Casper": {
+        "time": 27560,
+        "fileName": "ghosts/Casper_A07-Race<>27560.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 27890,
+        "fileName": "ghosts/Kasper_A07-Race<>27890.Replay.gbx",
+        "lastUpdated": 1691428700000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -330, "percentage": -1.1973875181422455 }
+  },
+  {
+    "name": "A08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 60410,
+        "fileName": "ghosts/Casper_A08-Endurance<>60410.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 63750,
+        "fileName": "ghosts/Kasper_A08-Endurance<>63750.Replay.gbx",
+        "lastUpdated": 1690390961000
+      }
+    },
+    "lastUpdated": 1690390961000,
+    "excluded": false,
+    "diff": { "ms": -3340, "percentage": -5.528885946035422 }
+  },
+  {
+    "name": "A09-Race",
+    "records": {
+      "Casper": {
+        "time": 25780,
+        "fileName": "ghosts/Casper_A09-Race<>25780.Replay.gbx",
+        "lastUpdated": 1690150174000
+      },
+      "Kasper": {
+        "time": 26250,
+        "fileName": "ghosts/Kasper_A09-Race<>26250.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690150174000,
+    "excluded": false,
+    "diff": { "ms": -470, "percentage": -1.8231186966640722 }
+  },
+  {
+    "name": "A10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 9510,
+        "fileName": "ghosts/Casper_A10-Acrobatic<>9510.Replay.gbx",
+        "lastUpdated": 1690150609000
+      },
+      "Kasper": {
+        "time": 9650,
+        "fileName": "ghosts/Kasper_A10-Acrobatic<>9650.Replay.gbx",
+        "lastUpdated": 1691321799000
+      }
+    },
+    "lastUpdated": 1691321799000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -1.4721345951629772 }
+  },
+  {
+    "name": "A11-Race",
+    "records": {
+      "Casper": {
+        "time": 19290,
+        "fileName": "ghosts/Casper_A11-Race<>19290.Replay.gbx",
+        "lastUpdated": 1690233528000
+      },
+      "Kasper": {
+        "time": 19300,
+        "fileName": "ghosts/Kasper_A11-Race<>19300.Replay.gbx",
+        "lastUpdated": 1690198596000
+      }
+    },
+    "lastUpdated": 1690233528000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.051840331778119086 }
+  },
+  {
+    "name": "A12-Speed",
+    "records": {
+      "Casper": {
+        "time": 19010,
+        "fileName": "ghosts/Casper_A12-Speed<>19010.Replay.gbx",
+        "lastUpdated": 1690203985000
+      },
+      "Kasper": {
+        "time": 19050,
+        "fileName": "ghosts/Kasper_A12-Speed<>19050.Replay.gbx",
+        "lastUpdated": 1690392452000
+      }
+    },
+    "lastUpdated": 1690392452000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.2104155707522315 }
+  },
+  {
+    "name": "A13-Race",
+    "records": {
+      "Casper": {
+        "time": 31560,
+        "fileName": "ghosts/Casper_A13-Race<>31560.Replay.gbx",
+        "lastUpdated": 1690204598000
+      },
+      "Kasper": {
+        "time": 31700,
+        "fileName": "ghosts/Kasper_A13-Race<>31700.Replay.gbx",
+        "lastUpdated": 1690797378000
+      }
+    },
+    "lastUpdated": 1690797378000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -0.44359949302914536 }
+  },
+  {
+    "name": "A14-Race",
+    "records": {
+      "Casper": {
+        "time": 21910,
+        "fileName": "ghosts/Casper_A14-Race<>21910.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 21940,
+        "fileName": "ghosts/Kasper_A14-Race<>21940.Replay.gbx",
+        "lastUpdated": 1691256953000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.1369237790963096 }
+  },
+  {
+    "name": "A15-Speed",
+    "records": {
+      "Casper": {
+        "time": 25040,
+        "fileName": "ghosts/Casper_A15-Speed<>25040.Replay.gbx",
+        "lastUpdated": 1689979993000
+      },
+      "Kasper": {
+        "time": 25070,
+        "fileName": "ghosts/Kasper_A15-Speed<>25070.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.11980830670925702 }
+  },
+  {
+    "name": "B01-Race",
+    "records": {
+      "Casper": {
+        "time": 25920,
+        "fileName": "ghosts/Casper_B01-Race<>25920.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 26180,
+        "fileName": "ghosts/Kasper_B01-Race<>26180.Replay.gbx",
+        "lastUpdated": 1690457177000
+      }
+    },
+    "lastUpdated": 1690457177000,
+    "excluded": false,
+    "diff": { "ms": -260, "percentage": -1.0030864197530853 }
+  },
+  {
+    "name": "B02-Race",
+    "records": {
+      "Casper": {
+        "time": 26690,
+        "fileName": "ghosts/Casper_B02-Race<>26690.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 27320,
+        "fileName": "ghosts/Kasper_B02-Race<>27320.Replay.gbx",
+        "lastUpdated": 1690458368000
+      }
+    },
+    "lastUpdated": 1690458368000,
+    "excluded": false,
+    "diff": { "ms": -630, "percentage": -2.360434619707763 }
+  },
+  {
+    "name": "B03-Race",
+    "records": {
+      "Casper": {
+        "time": 27000,
+        "fileName": "ghosts/Casper_B03-Race<>27000.Replay.gbx",
+        "lastUpdated": 1690576517000
+      },
+      "Kasper": {
+        "time": 27680,
+        "fileName": "ghosts/Kasper_B03-Race<>27680.Replay.gbx",
+        "lastUpdated": 1690459879000
+      }
+    },
+    "lastUpdated": 1690576517000,
+    "excluded": false,
+    "diff": { "ms": -680, "percentage": -2.51851851851852 }
+  },
+  {
+    "name": "B04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 12900,
+        "fileName": "ghosts/Casper_B04-Acrobatic<>12900.Replay.gbx",
+        "lastUpdated": 1690205105000
+      },
+      "Kasper": {
+        "time": 12920,
+        "fileName": "ghosts/Kasper_B04-Acrobatic<>12920.Replay.gbx",
+        "lastUpdated": 1690483476000
+      }
+    },
+    "lastUpdated": 1690483476000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.15503875968991832 }
+  },
+  {
+    "name": "B05-Race",
+    "records": {
+      "Casper": {
+        "time": 25610,
+        "fileName": "ghosts/Casper_B05-Race<>25610.Replay.gbx",
+        "lastUpdated": 1690206030000
+      },
+      "Kasper": {
+        "time": 26120,
+        "fileName": "ghosts/Kasper_B05-Race<>26120.Replay.gbx",
+        "lastUpdated": 1690471949000
+      }
+    },
+    "lastUpdated": 1690471949000,
+    "excluded": false,
+    "diff": { "ms": -510, "percentage": -1.991409605622807 }
+  },
+  {
+    "name": "B06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 27240,
+        "fileName": "ghosts/Casper_B06-Obstacle<>27240.Replay.gbx",
+        "lastUpdated": 1690838098000
+      },
+      "Kasper": {
+        "time": 27280,
+        "fileName": "ghosts/Kasper_B06-Obstacle<>27280.Replay.gbx",
+        "lastUpdated": 1690485109000
+      }
+    },
+    "lastUpdated": 1690838098000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.1468428781204123 }
+  },
+  {
+    "name": "B07-Race",
+    "records": {
+      "Casper": {
+        "time": 29150,
+        "fileName": "ghosts/Casper_B07-Race<>29150.Replay.gbx",
+        "lastUpdated": 1690833087000
+      },
+      "Kasper": {
+        "time": 29400,
+        "fileName": "ghosts/Kasper_B07-Race<>29400.Replay.gbx",
+        "lastUpdated": 1690486503000
+      }
+    },
+    "lastUpdated": 1690833087000,
+    "excluded": false,
+    "diff": { "ms": -250, "percentage": -0.8576329331046351 }
+  },
+  {
+    "name": "B08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 100720,
+        "fileName": "ghosts/Casper_B08-Endurance<>100720.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 101740,
+        "fileName": "ghosts/Kasper_B08-Endurance<>101740.Replay.gbx",
+        "lastUpdated": 1690535298000
+      }
+    },
+    "lastUpdated": 1690535298000,
+    "excluded": false,
+    "diff": { "ms": -1020, "percentage": -1.0127084988085677 }
+  },
+  {
+    "name": "B09-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13710,
+        "fileName": "ghosts/Casper_B09-Acrobatic<>13710.Replay.gbx",
+        "lastUpdated": 1690666563000
+      },
+      "Kasper": {
+        "time": 14780,
+        "fileName": "ghosts/Kasper_B09-Acrobatic<>14780.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690666563000,
+    "excluded": false,
+    "diff": { "ms": -1070, "percentage": -7.804522246535384 }
+  },
+  {
+    "name": "B10-Speed",
+    "records": {
+      "Casper": {
+        "time": 37580,
+        "fileName": "ghosts/Casper_B10-Speed<>37580.Replay.gbx",
+        "lastUpdated": 1690834384000
+      },
+      "Kasper": {
+        "time": 37640,
+        "fileName": "ghosts/Kasper_B10-Speed<>37640.Replay.gbx",
+        "lastUpdated": 1690538142000
+      }
+    },
+    "lastUpdated": 1690834384000,
+    "excluded": false,
+    "diff": { "ms": -60, "percentage": -0.159659393294298 }
+  },
+  {
+    "name": "B11-Race",
+    "records": {
+      "Casper": {
+        "time": 30720,
+        "fileName": "ghosts/Casper_B11-Race<>30720.Replay.gbx",
+        "lastUpdated": 1690664121000
+      },
+      "Kasper": {
+        "time": 31010,
+        "fileName": "ghosts/Kasper_B11-Race<>31010.Replay.gbx",
+        "lastUpdated": 1690541738000
+      }
+    },
+    "lastUpdated": 1690664121000,
+    "excluded": false,
+    "diff": { "ms": -290, "percentage": -0.9440104166666741 }
+  },
+  {
+    "name": "B12-Race",
+    "records": {
+      "Casper": {
+        "time": 44200,
+        "fileName": "ghosts/Casper_B12-Race<>44200.Replay.gbx",
+        "lastUpdated": 1690833510000
+      },
+      "Kasper": {
+        "time": 44920,
+        "fileName": "ghosts/Kasper_B12-Race<>44920.Replay.gbx",
+        "lastUpdated": 1690543370000
+      }
+    },
+    "lastUpdated": 1690833510000,
+    "excluded": false,
+    "diff": { "ms": -720, "percentage": -1.6289592760180938 }
+  },
+  {
+    "name": "B13-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 25380,
+        "fileName": "ghosts/Casper_B13-Obstacle<>25380.Replay.gbx",
+        "lastUpdated": 1690206685000
+      },
+      "Kasper": {
+        "time": 25500,
+        "fileName": "ghosts/Kasper_B13-Obstacle<>25500.Replay.gbx",
+        "lastUpdated": 1690565989000
+      }
+    },
+    "lastUpdated": 1690565989000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.47281323877068626 }
+  },
+  {
+    "name": "B14-Speed",
+    "records": {
+      "Casper": {
+        "time": 32920,
+        "fileName": "ghosts/Casper_B14-Speed<>32920.Replay.gbx",
+        "lastUpdated": 1690833950000
+      },
+      "Kasper": {
+        "time": 33680,
+        "fileName": "ghosts/Kasper_B14-Speed<>33680.Replay.gbx",
+        "lastUpdated": 1691258707000
+      }
+    },
+    "lastUpdated": 1691258707000,
+    "excluded": false,
+    "diff": { "ms": -760, "percentage": -2.3086269744835963 }
+  },
+  {
+    "name": "B15-Race",
+    "records": {
+      "Casper": {
+        "time": 40650,
+        "fileName": "ghosts/Casper_B15-Race<>40650.Replay.gbx",
+        "lastUpdated": 1690754825000
+      },
+      "Kasper": {
+        "time": 40870,
+        "fileName": "ghosts/Kasper_B15-Race<>40870.Replay.gbx",
+        "lastUpdated": 1690655453000
+      }
+    },
+    "lastUpdated": 1690754825000,
+    "excluded": false,
+    "diff": { "ms": -220, "percentage": -0.5412054120541132 }
+  },
+  {
+    "name": "C01-Race",
+    "records": {
+      "Casper": {
+        "time": 28450,
+        "fileName": "ghosts/Casper_C01-Race<>28450.Replay.gbx",
+        "lastUpdated": 1690207178000
+      },
+      "Kasper": {
+        "time": 30970,
+        "fileName": "ghosts/Kasper_C01-Race<>30970.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207178000,
+    "excluded": false,
+    "diff": { "ms": -2520, "percentage": -8.857644991212643 }
+  },
+  {
+    "name": "C02-Race",
+    "records": {
+      "Casper": {
+        "time": 42120,
+        "fileName": "ghosts/Casper_C02-Race<>42120.Replay.gbx",
+        "lastUpdated": 1690917056000
+      },
+      "Kasper": {
+        "time": 44190,
+        "fileName": "ghosts/Kasper_C02-Race<>44190.Replay.gbx",
+        "lastUpdated": 1690655486000
+      }
+    },
+    "lastUpdated": 1690917056000,
+    "excluded": false,
+    "diff": { "ms": -2070, "percentage": -4.914529914529919 }
+  },
+  {
+    "name": "C03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13330,
+        "fileName": "ghosts/Casper_C03-Acrobatic<>13330.Replay.gbx",
+        "lastUpdated": 1690207546000
+      },
+      "Kasper": {
+        "time": 14340,
+        "fileName": "ghosts/Kasper_C03-Acrobatic<>14340.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207546000,
+    "excluded": false,
+    "diff": { "ms": -1010, "percentage": -7.576894223555897 }
+  },
+  {
+    "name": "C04-Race",
+    "records": {
+      "Casper": {
+        "time": 39690,
+        "fileName": "ghosts/Casper_C04-Race<>39690.Replay.gbx",
+        "lastUpdated": 1690917436000
+      },
+      "Kasper": {
+        "time": 40750,
+        "fileName": "ghosts/Kasper_C04-Race<>40750.Replay.gbx",
+        "lastUpdated": 1690717908000
+      }
+    },
+    "lastUpdated": 1690917436000,
+    "excluded": false,
+    "diff": { "ms": -1060, "percentage": -2.6706979087931515 }
+  },
+  {
+    "name": "C05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 113990,
+        "fileName": "ghosts/Casper_C05-Endurance<>113990.Replay.gbx",
+        "lastUpdated": 1690918479000
+      },
+      "Kasper": {
+        "time": 115730,
+        "fileName": "ghosts/Kasper_C05-Endurance<>115730.Replay.gbx",
+        "lastUpdated": 1691329971000
+      }
+    },
+    "lastUpdated": 1691329971000,
+    "excluded": false,
+    "diff": { "ms": -1740, "percentage": -1.5264496885691647 }
+  },
+  {
+    "name": "C06-Speed",
+    "records": {
+      "Casper": {
+        "time": 54960,
+        "fileName": "ghosts/Casper_C06-Speed<>54960.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55390,
+        "fileName": "ghosts/Kasper_C06-Speed<>55390.Replay.gbx",
+        "lastUpdated": 1690719133000
+      }
+    },
+    "lastUpdated": 1690719133000,
+    "excluded": false,
+    "diff": { "ms": -430, "percentage": -0.7823871906841307 }
+  },
+  {
+    "name": "C07-Race",
+    "records": {
+      "Casper": {
+        "time": 40270,
+        "fileName": "ghosts/Casper_C07-Race<>40270.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 41640,
+        "fileName": "ghosts/Kasper_C07-Race<>41640.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1370, "percentage": -3.4020362552768857 }
+  },
+  {
+    "name": "C08-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 26510,
+        "fileName": "ghosts/Casper_C08-Obstacle<>26510.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 29350,
+        "fileName": "ghosts/Kasper_C08-Obstacle<>29350.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2840, "percentage": -10.7129385137684 }
+  },
+  {
+    "name": "C09-Race",
+    "records": {
+      "Casper": {
+        "time": 49630,
+        "fileName": "ghosts/Casper_C09-Race<>49630.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 50120,
+        "fileName": "ghosts/Kasper_C09-Race<>50120.Replay.gbx",
+        "lastUpdated": 1690721770000
+      }
+    },
+    "lastUpdated": 1690721770000,
+    "excluded": false,
+    "diff": { "ms": -490, "percentage": -0.9873060648801113 }
+  },
+  {
+    "name": "C10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14880,
+        "fileName": "ghosts/Casper_C10-Acrobatic<>14880.Replay.gbx",
+        "lastUpdated": 1690919388000
+      },
+      "Kasper": {
+        "time": 15810,
+        "fileName": "ghosts/Kasper_C10-Acrobatic<>15810.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690919388000,
+    "excluded": false,
+    "diff": { "ms": -930, "percentage": -6.25 }
+  },
+  {
+    "name": "C11-Race",
+    "records": {
+      "Casper": {
+        "time": 49600,
+        "fileName": "ghosts/Casper_C11-Race<>49600.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 51960,
+        "fileName": "ghosts/Kasper_C11-Race<>51960.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2360, "percentage": -4.758064516129035 }
+  },
+  {
+    "name": "C12-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 32340,
+        "fileName": "ghosts/Casper_C12-Obstacle<>32340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 33500,
+        "fileName": "ghosts/Kasper_C12-Obstacle<>33500.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1160, "percentage": -3.5868893011750114 }
+  },
+  {
+    "name": "C13-Race",
+    "records": {
+      "Casper": {
+        "time": 44640,
+        "fileName": "ghosts/Casper_C13-Race<>44640.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 46870,
+        "fileName": "ghosts/Kasper_C13-Race<>46870.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2230, "percentage": -4.9955197132616425 }
+  },
+  {
+    "name": "C14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 115920,
+        "fileName": "ghosts/Casper_C14-Endurance<>115920.Replay.gbx",
+        "lastUpdated": 1690919973000
+      },
+      "Kasper": {
+        "time": 127080,
+        "fileName": "ghosts/Kasper_C14-Endurance<>127080.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": -11160, "percentage": -9.627329192546586 }
+  },
+  {
+    "name": "C15-Speed",
+    "records": {
+      "Casper": {
+        "time": 49840,
+        "fileName": "ghosts/Casper_C15-Speed<>49840.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 53560,
+        "fileName": "ghosts/Kasper_C15-Speed<>53560.Replay.gbx",
+        "lastUpdated": 1690021661000
+      }
+    },
+    "lastUpdated": 1690021661000,
+    "excluded": false,
+    "diff": { "ms": -3720, "percentage": -7.4638844301765594 }
+  },
+  {
+    "name": "D01-Endurance",
+    "records": {
+      "Casper": {
+        "time": 149980,
+        "fileName": "ghosts/Casper_D01-Endurance<>149980.Replay.gbx",
+        "lastUpdated": 1690232885000
+      },
+      "Kasper": {
+        "time": 156820,
+        "fileName": "ghosts/Kasper_D01-Endurance<>156820.Replay.gbx",
+        "lastUpdated": 1690821495000
+      }
+    },
+    "lastUpdated": 1690821495000,
+    "excluded": false,
+    "diff": { "ms": -6840, "percentage": -4.560608081077477 }
+  },
+  {
+    "name": "D02-Race",
+    "records": {
+      "Casper": {
+        "time": 54910,
+        "fileName": "ghosts/Casper_D02-Race<>54910.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 56510,
+        "fileName": "ghosts/Kasper_D02-Race<>56510.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.913859042068845 }
+  },
+  {
+    "name": "D03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 16400,
+        "fileName": "ghosts/Casper_D03-Acrobatic<>16400.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 16580,
+        "fileName": "ghosts/Kasper_D03-Acrobatic<>16580.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.097560975609757 }
+  },
+  {
+    "name": "D04-Race",
+    "records": {
+      "Casper": {
+        "time": 52170,
+        "fileName": "ghosts/Casper_D04-Race<>52170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55090,
+        "fileName": "ghosts/Kasper_D04-Race<>55090.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -2920, "percentage": -5.597086448150268 }
+  },
+  {
+    "name": "D05-Race",
+    "records": {
+      "Casper": {
+        "time": 74340,
+        "fileName": "ghosts/Casper_D05-Race<>74340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 74740,
+        "fileName": "ghosts/Kasper_D05-Race<>74740.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -400, "percentage": -0.5380683346785098 }
+  },
+  {
+    "name": "D06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 64880,
+        "fileName": "ghosts/Casper_D06-Obstacle<>64880.Replay.gbx",
+        "lastUpdated": 1690404731000
+      },
+      "Kasper": {
+        "time": 73890,
+        "fileName": "ghosts/Kasper_D06-Obstacle<>73890.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690404731000,
+    "excluded": false,
+    "diff": { "ms": -9010, "percentage": -13.887176325524052 }
+  },
+  {
+    "name": "D07-Race",
+    "records": {
+      "Casper": {
+        "time": 61450,
+        "fileName": "ghosts/Casper_D07-Race<>61450.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 63010,
+        "fileName": "ghosts/Kasper_D07-Race<>63010.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1560, "percentage": -2.5386493083807915 }
+  },
+  {
+    "name": "D08-Speed",
+    "records": {
+      "Casper": {
+        "time": 54740,
+        "fileName": "ghosts/Casper_D08-Speed<>54740.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55200,
+        "fileName": "ghosts/Kasper_D08-Speed<>55200.Replay.gbx",
+        "lastUpdated": 1691325607000
+      }
+    },
+    "lastUpdated": 1691325607000,
+    "excluded": false,
+    "diff": { "ms": -460, "percentage": -0.8403361344537785 }
+  },
+  {
+    "name": "D09-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 45930,
+        "fileName": "ghosts/Casper_D09-Obstacle<>45930.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 48110,
+        "fileName": "ghosts/Kasper_D09-Obstacle<>48110.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2180, "percentage": -4.746353146091886 }
+  },
+  {
+    "name": "D10-Race",
+    "records": {
+      "Casper": {
+        "time": 57830,
+        "fileName": "ghosts/Casper_D10-Race<>57830.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 59430,
+        "fileName": "ghosts/Kasper_D10-Race<>59430.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.7667300708974496 }
+  },
+  {
+    "name": "D11-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14060,
+        "fileName": "ghosts/Casper_D11-Acrobatic<>14060.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 14240,
+        "fileName": "ghosts/Kasper_D11-Acrobatic<>14240.Replay.gbx",
+        "lastUpdated": 1690306597000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.2802275960170695 }
+  },
+  {
+    "name": "D12-Speed",
+    "records": {
+      "Casper": {
+        "time": 42060,
+        "fileName": "ghosts/Casper_D12-Speed<>42060.Replay.gbx",
+        "lastUpdated": 1690405193000
+      },
+      "Kasper": {
+        "time": 43440,
+        "fileName": "ghosts/Kasper_D12-Speed<>43440.Replay.gbx",
+        "lastUpdated": 1690822787000
+      }
+    },
+    "lastUpdated": 1690822787000,
+    "excluded": false,
+    "diff": { "ms": -1380, "percentage": -3.2810271041369576 }
+  },
+  {
+    "name": "D13-Race",
+    "records": {
+      "Casper": {
+        "time": 73170,
+        "fileName": "ghosts/Casper_D13-Race<>73170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 77510,
+        "fileName": "ghosts/Kasper_D13-Race<>77510.Replay.gbx",
+        "lastUpdated": 1690455902000
+      }
+    },
+    "lastUpdated": 1690455902000,
+    "excluded": false,
+    "diff": { "ms": -4340, "percentage": -5.931392647259814 }
+  },
+  {
+    "name": "D14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 185980,
+        "fileName": "ghosts/Casper_D14-Endurance<>185980.Replay.gbx",
+        "lastUpdated": 1689971886000
+      },
+      "Kasper": {
+        "time": 197810,
+        "fileName": "ghosts/Kasper_D14-Endurance<>197810.Replay.gbx",
+        "lastUpdated": 1690455896000
+      }
+    },
+    "lastUpdated": 1690455896000,
+    "excluded": false,
+    "diff": { "ms": -11830, "percentage": -6.360899021400157 }
+  },
+  {
+    "name": "D15-Endurance",
+    "records": {
+      "Casper": {
+        "time": 474810,
+        "fileName": "ghosts/Casper_D15-Endurance<>474810.Replay.gbx",
+        "lastUpdated": 1690920652000
+      }
+    },
+    "lastUpdated": 1690920652000,
+    "excluded": false
+  },
+  {
+    "name": "E01-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 46600,
+        "fileName": "ghosts/Casper_E01-Obstacle<>46600.Replay.gbx",
+        "lastUpdated": 1690059691000
+      },
+      "Kasper": {
+        "time": 49610,
+        "fileName": "ghosts/Kasper_E01-Obstacle<>49610.Replay.gbx",
+        "lastUpdated": 1690290575000
+      }
+    },
+    "lastUpdated": 1690290575000,
+    "excluded": false,
+    "diff": { "ms": -3010, "percentage": -6.459227467811157 }
+  },
+  {
+    "name": "E02-Endurance",
+    "records": {
+      "Casper": {
+        "time": 279340,
+        "fileName": "ghosts/Casper_E02-Endurance<>279340.Replay.gbx",
+        "lastUpdated": 1690232104000
+      },
+      "Kasper": {
+        "time": 304460,
+        "fileName": "ghosts/Kasper_E02-Endurance<>304460.Replay.gbx",
+        "lastUpdated": 1690305946000
+      }
+    },
+    "lastUpdated": 1690305946000,
+    "excluded": false,
+    "diff": { "ms": -25120, "percentage": -8.99262547433235 }
+  },
+  {
+    "name": "E03-Endurance",
+    "records": {
+      "Casper": {
+        "time": 383840,
+        "fileName": "ghosts/Casper_E03-Endurance<>383840.Replay.gbx",
+        "lastUpdated": 1690232104000
+      }
+    },
+    "lastUpdated": 1690232104000,
+    "excluded": false
+  },
+  {
+    "name": "E04-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 117330,
+        "fileName": "ghosts/Casper_E04-Obstacle<>117330.Replay.gbx",
+        "lastUpdated": 1690922866000
+      }
+    },
+    "lastUpdated": 1690922866000,
+    "excluded": false
+  },
+  {
+    "name": "E05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 3919660,
+        "fileName": "ghosts/Casper_E05-Endurance<>3919660.Replay.gbx",
+        "lastUpdated": 1690232105000
+      }
+    },
+    "lastUpdated": 1690232105000,
+    "excluded": true
+  },
+  {
+    "name": "A01-Race",
+    "records": {
+      "Casper": {
+        "time": 24340,
+        "fileName": "ghosts/Casper_A01-Race<>24340.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 24450,
+        "fileName": "ghosts/Kasper_A01-Race<>24450.Replay.gbx",
+        "lastUpdated": 1690288790000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -110, "percentage": -0.4519309778143077 }
+  },
+  {
+    "name": "A02-Race",
+    "records": {
+      "Casper": {
+        "time": 15990,
+        "fileName": "ghosts/Casper_A02-Race<>15990.Replay.gbx",
+        "lastUpdated": 1690146847000
+      },
+      "Kasper": {
+        "time": 16230,
+        "fileName": "ghosts/Kasper_A02-Race<>16230.Replay.gbx",
+        "lastUpdated": 1690284220000
+      }
+    },
+    "lastUpdated": 1690284220000,
+    "excluded": false,
+    "diff": { "ms": -240, "percentage": -1.5009380863039379 }
+  },
+  {
+    "name": "A03-Race",
+    "records": {
+      "Casper": {
+        "time": 18660,
+        "fileName": "ghosts/Casper_A03-Race<>18660.Replay.gbx",
+        "lastUpdated": 1690147220000
+      },
+      "Kasper": {
+        "time": 18670,
+        "fileName": "ghosts/Kasper_A03-Race<>18670.Replay.gbx",
+        "lastUpdated": 1690048283000
+      }
+    },
+    "lastUpdated": 1690147220000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.0535905680600246 }
+  },
+  {
+    "name": "A05-Race",
+    "records": {
+      "Casper": {
+        "time": 16790,
+        "fileName": "ghosts/Casper_A05-Race<>16790.Replay.gbx",
+        "lastUpdated": 1690327329000
+      },
+      "Kasper": {
+        "time": 16910,
+        "fileName": "ghosts/Kasper_A05-Race<>16910.Replay.gbx",
+        "lastUpdated": 1691262782000
+      }
+    },
+    "lastUpdated": 1691262782000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.7147111375819026 }
+  },
+  {
+    "name": "A07-Race",
+    "records": {
+      "Casper": {
+        "time": 27560,
+        "fileName": "ghosts/Casper_A07-Race<>27560.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 27890,
+        "fileName": "ghosts/Kasper_A07-Race<>27890.Replay.gbx",
+        "lastUpdated": 1691428700000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -330, "percentage": -1.1973875181422455 }
+  },
+  {
+    "name": "A09-Race",
+    "records": {
+      "Casper": {
+        "time": 25780,
+        "fileName": "ghosts/Casper_A09-Race<>25780.Replay.gbx",
+        "lastUpdated": 1690150174000
+      },
+      "Kasper": {
+        "time": 26250,
+        "fileName": "ghosts/Kasper_A09-Race<>26250.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690150174000,
+    "excluded": false,
+    "diff": { "ms": -470, "percentage": -1.8231186966640722 }
+  },
+  {
+    "name": "A11-Race",
+    "records": {
+      "Casper": {
+        "time": 19290,
+        "fileName": "ghosts/Casper_A11-Race<>19290.Replay.gbx",
+        "lastUpdated": 1690233528000
+      },
+      "Kasper": {
+        "time": 19300,
+        "fileName": "ghosts/Kasper_A11-Race<>19300.Replay.gbx",
+        "lastUpdated": 1690198596000
+      }
+    },
+    "lastUpdated": 1690233528000,
+    "excluded": false,
+    "diff": { "ms": -10, "percentage": -0.051840331778119086 }
+  },
+  {
+    "name": "A13-Race",
+    "records": {
+      "Casper": {
+        "time": 31560,
+        "fileName": "ghosts/Casper_A13-Race<>31560.Replay.gbx",
+        "lastUpdated": 1690204598000
+      },
+      "Kasper": {
+        "time": 31700,
+        "fileName": "ghosts/Kasper_A13-Race<>31700.Replay.gbx",
+        "lastUpdated": 1690797378000
+      }
+    },
+    "lastUpdated": 1690797378000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -0.44359949302914536 }
+  },
+  {
+    "name": "A14-Race",
+    "records": {
+      "Casper": {
+        "time": 21910,
+        "fileName": "ghosts/Casper_A14-Race<>21910.Replay.gbx",
+        "lastUpdated": 1691435479000
+      },
+      "Kasper": {
+        "time": 21940,
+        "fileName": "ghosts/Kasper_A14-Race<>21940.Replay.gbx",
+        "lastUpdated": 1691256953000
+      }
+    },
+    "lastUpdated": 1691435479000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.1369237790963096 }
+  },
+  {
+    "name": "B01-Race",
+    "records": {
+      "Casper": {
+        "time": 25920,
+        "fileName": "ghosts/Casper_B01-Race<>25920.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 26180,
+        "fileName": "ghosts/Kasper_B01-Race<>26180.Replay.gbx",
+        "lastUpdated": 1690457177000
+      }
+    },
+    "lastUpdated": 1690457177000,
+    "excluded": false,
+    "diff": { "ms": -260, "percentage": -1.0030864197530853 }
+  },
+  {
+    "name": "B02-Race",
+    "records": {
+      "Casper": {
+        "time": 26690,
+        "fileName": "ghosts/Casper_B02-Race<>26690.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 27320,
+        "fileName": "ghosts/Kasper_B02-Race<>27320.Replay.gbx",
+        "lastUpdated": 1690458368000
+      }
+    },
+    "lastUpdated": 1690458368000,
+    "excluded": false,
+    "diff": { "ms": -630, "percentage": -2.360434619707763 }
+  },
+  {
+    "name": "B03-Race",
+    "records": {
+      "Casper": {
+        "time": 27000,
+        "fileName": "ghosts/Casper_B03-Race<>27000.Replay.gbx",
+        "lastUpdated": 1690576517000
+      },
+      "Kasper": {
+        "time": 27680,
+        "fileName": "ghosts/Kasper_B03-Race<>27680.Replay.gbx",
+        "lastUpdated": 1690459879000
+      }
+    },
+    "lastUpdated": 1690576517000,
+    "excluded": false,
+    "diff": { "ms": -680, "percentage": -2.51851851851852 }
+  },
+  {
+    "name": "B05-Race",
+    "records": {
+      "Casper": {
+        "time": 25610,
+        "fileName": "ghosts/Casper_B05-Race<>25610.Replay.gbx",
+        "lastUpdated": 1690206030000
+      },
+      "Kasper": {
+        "time": 26120,
+        "fileName": "ghosts/Kasper_B05-Race<>26120.Replay.gbx",
+        "lastUpdated": 1690471949000
+      }
+    },
+    "lastUpdated": 1690471949000,
+    "excluded": false,
+    "diff": { "ms": -510, "percentage": -1.991409605622807 }
+  },
+  {
+    "name": "B07-Race",
+    "records": {
+      "Casper": {
+        "time": 29150,
+        "fileName": "ghosts/Casper_B07-Race<>29150.Replay.gbx",
+        "lastUpdated": 1690833087000
+      },
+      "Kasper": {
+        "time": 29400,
+        "fileName": "ghosts/Kasper_B07-Race<>29400.Replay.gbx",
+        "lastUpdated": 1690486503000
+      }
+    },
+    "lastUpdated": 1690833087000,
+    "excluded": false,
+    "diff": { "ms": -250, "percentage": -0.8576329331046351 }
+  },
+  {
+    "name": "B11-Race",
+    "records": {
+      "Casper": {
+        "time": 30720,
+        "fileName": "ghosts/Casper_B11-Race<>30720.Replay.gbx",
+        "lastUpdated": 1690664121000
+      },
+      "Kasper": {
+        "time": 31010,
+        "fileName": "ghosts/Kasper_B11-Race<>31010.Replay.gbx",
+        "lastUpdated": 1690541738000
+      }
+    },
+    "lastUpdated": 1690664121000,
+    "excluded": false,
+    "diff": { "ms": -290, "percentage": -0.9440104166666741 }
+  },
+  {
+    "name": "B12-Race",
+    "records": {
+      "Casper": {
+        "time": 44200,
+        "fileName": "ghosts/Casper_B12-Race<>44200.Replay.gbx",
+        "lastUpdated": 1690833510000
+      },
+      "Kasper": {
+        "time": 44920,
+        "fileName": "ghosts/Kasper_B12-Race<>44920.Replay.gbx",
+        "lastUpdated": 1690543370000
+      }
+    },
+    "lastUpdated": 1690833510000,
+    "excluded": false,
+    "diff": { "ms": -720, "percentage": -1.6289592760180938 }
+  },
+  {
+    "name": "B15-Race",
+    "records": {
+      "Casper": {
+        "time": 40650,
+        "fileName": "ghosts/Casper_B15-Race<>40650.Replay.gbx",
+        "lastUpdated": 1690754825000
+      },
+      "Kasper": {
+        "time": 40870,
+        "fileName": "ghosts/Kasper_B15-Race<>40870.Replay.gbx",
+        "lastUpdated": 1690655453000
+      }
+    },
+    "lastUpdated": 1690754825000,
+    "excluded": false,
+    "diff": { "ms": -220, "percentage": -0.5412054120541132 }
+  },
+  {
+    "name": "C01-Race",
+    "records": {
+      "Casper": {
+        "time": 28450,
+        "fileName": "ghosts/Casper_C01-Race<>28450.Replay.gbx",
+        "lastUpdated": 1690207178000
+      },
+      "Kasper": {
+        "time": 30970,
+        "fileName": "ghosts/Kasper_C01-Race<>30970.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207178000,
+    "excluded": false,
+    "diff": { "ms": -2520, "percentage": -8.857644991212643 }
+  },
+  {
+    "name": "C02-Race",
+    "records": {
+      "Casper": {
+        "time": 42120,
+        "fileName": "ghosts/Casper_C02-Race<>42120.Replay.gbx",
+        "lastUpdated": 1690917056000
+      },
+      "Kasper": {
+        "time": 44190,
+        "fileName": "ghosts/Kasper_C02-Race<>44190.Replay.gbx",
+        "lastUpdated": 1690655486000
+      }
+    },
+    "lastUpdated": 1690917056000,
+    "excluded": false,
+    "diff": { "ms": -2070, "percentage": -4.914529914529919 }
+  },
+  {
+    "name": "C04-Race",
+    "records": {
+      "Casper": {
+        "time": 39690,
+        "fileName": "ghosts/Casper_C04-Race<>39690.Replay.gbx",
+        "lastUpdated": 1690917436000
+      },
+      "Kasper": {
+        "time": 40750,
+        "fileName": "ghosts/Kasper_C04-Race<>40750.Replay.gbx",
+        "lastUpdated": 1690717908000
+      }
+    },
+    "lastUpdated": 1690917436000,
+    "excluded": false,
+    "diff": { "ms": -1060, "percentage": -2.6706979087931515 }
+  },
+  {
+    "name": "C07-Race",
+    "records": {
+      "Casper": {
+        "time": 40270,
+        "fileName": "ghosts/Casper_C07-Race<>40270.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 41640,
+        "fileName": "ghosts/Kasper_C07-Race<>41640.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1370, "percentage": -3.4020362552768857 }
+  },
+  {
+    "name": "C09-Race",
+    "records": {
+      "Casper": {
+        "time": 49630,
+        "fileName": "ghosts/Casper_C09-Race<>49630.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 50120,
+        "fileName": "ghosts/Kasper_C09-Race<>50120.Replay.gbx",
+        "lastUpdated": 1690721770000
+      }
+    },
+    "lastUpdated": 1690721770000,
+    "excluded": false,
+    "diff": { "ms": -490, "percentage": -0.9873060648801113 }
+  },
+  {
+    "name": "C11-Race",
+    "records": {
+      "Casper": {
+        "time": 49600,
+        "fileName": "ghosts/Casper_C11-Race<>49600.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 51960,
+        "fileName": "ghosts/Kasper_C11-Race<>51960.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2360, "percentage": -4.758064516129035 }
+  },
+  {
+    "name": "C13-Race",
+    "records": {
+      "Casper": {
+        "time": 44640,
+        "fileName": "ghosts/Casper_C13-Race<>44640.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 46870,
+        "fileName": "ghosts/Kasper_C13-Race<>46870.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2230, "percentage": -4.9955197132616425 }
+  },
+  {
+    "name": "D02-Race",
+    "records": {
+      "Casper": {
+        "time": 54910,
+        "fileName": "ghosts/Casper_D02-Race<>54910.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 56510,
+        "fileName": "ghosts/Kasper_D02-Race<>56510.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.913859042068845 }
+  },
+  {
+    "name": "D04-Race",
+    "records": {
+      "Casper": {
+        "time": 52170,
+        "fileName": "ghosts/Casper_D04-Race<>52170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55090,
+        "fileName": "ghosts/Kasper_D04-Race<>55090.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -2920, "percentage": -5.597086448150268 }
+  },
+  {
+    "name": "D05-Race",
+    "records": {
+      "Casper": {
+        "time": 74340,
+        "fileName": "ghosts/Casper_D05-Race<>74340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 74740,
+        "fileName": "ghosts/Kasper_D05-Race<>74740.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690131212000,
+    "excluded": false,
+    "diff": { "ms": -400, "percentage": -0.5380683346785098 }
+  },
+  {
+    "name": "D07-Race",
+    "records": {
+      "Casper": {
+        "time": 61450,
+        "fileName": "ghosts/Casper_D07-Race<>61450.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 63010,
+        "fileName": "ghosts/Kasper_D07-Race<>63010.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1560, "percentage": -2.5386493083807915 }
+  },
+  {
+    "name": "D10-Race",
+    "records": {
+      "Casper": {
+        "time": 57830,
+        "fileName": "ghosts/Casper_D10-Race<>57830.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 59430,
+        "fileName": "ghosts/Kasper_D10-Race<>59430.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -1600, "percentage": -2.7667300708974496 }
+  },
+  {
+    "name": "D13-Race",
+    "records": {
+      "Casper": {
+        "time": 73170,
+        "fileName": "ghosts/Casper_D13-Race<>73170.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 77510,
+        "fileName": "ghosts/Kasper_D13-Race<>77510.Replay.gbx",
+        "lastUpdated": 1690455902000
+      }
+    },
+    "lastUpdated": 1690455902000,
+    "excluded": false,
+    "diff": { "ms": -4340, "percentage": -5.931392647259814 }
+  },
+  {
+    "name": "A12-Speed",
+    "records": {
+      "Casper": {
+        "time": 19010,
+        "fileName": "ghosts/Casper_A12-Speed<>19010.Replay.gbx",
+        "lastUpdated": 1690203985000
+      },
+      "Kasper": {
+        "time": 19050,
+        "fileName": "ghosts/Kasper_A12-Speed<>19050.Replay.gbx",
+        "lastUpdated": 1690392452000
+      }
+    },
+    "lastUpdated": 1690392452000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.2104155707522315 }
+  },
+  {
+    "name": "A15-Speed",
+    "records": {
+      "Casper": {
+        "time": 25040,
+        "fileName": "ghosts/Casper_A15-Speed<>25040.Replay.gbx",
+        "lastUpdated": 1689979993000
+      },
+      "Kasper": {
+        "time": 25070,
+        "fileName": "ghosts/Kasper_A15-Speed<>25070.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -30, "percentage": -0.11980830670925702 }
+  },
+  {
+    "name": "B10-Speed",
+    "records": {
+      "Casper": {
+        "time": 37580,
+        "fileName": "ghosts/Casper_B10-Speed<>37580.Replay.gbx",
+        "lastUpdated": 1690834384000
+      },
+      "Kasper": {
+        "time": 37640,
+        "fileName": "ghosts/Kasper_B10-Speed<>37640.Replay.gbx",
+        "lastUpdated": 1690538142000
+      }
+    },
+    "lastUpdated": 1690834384000,
+    "excluded": false,
+    "diff": { "ms": -60, "percentage": -0.159659393294298 }
+  },
+  {
+    "name": "B14-Speed",
+    "records": {
+      "Casper": {
+        "time": 32920,
+        "fileName": "ghosts/Casper_B14-Speed<>32920.Replay.gbx",
+        "lastUpdated": 1690833950000
+      },
+      "Kasper": {
+        "time": 33680,
+        "fileName": "ghosts/Kasper_B14-Speed<>33680.Replay.gbx",
+        "lastUpdated": 1691258707000
+      }
+    },
+    "lastUpdated": 1691258707000,
+    "excluded": false,
+    "diff": { "ms": -760, "percentage": -2.3086269744835963 }
+  },
+  {
+    "name": "C06-Speed",
+    "records": {
+      "Casper": {
+        "time": 54960,
+        "fileName": "ghosts/Casper_C06-Speed<>54960.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55390,
+        "fileName": "ghosts/Kasper_C06-Speed<>55390.Replay.gbx",
+        "lastUpdated": 1690719133000
+      }
+    },
+    "lastUpdated": 1690719133000,
+    "excluded": false,
+    "diff": { "ms": -430, "percentage": -0.7823871906841307 }
+  },
+  {
+    "name": "C15-Speed",
+    "records": {
+      "Casper": {
+        "time": 49840,
+        "fileName": "ghosts/Casper_C15-Speed<>49840.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 53560,
+        "fileName": "ghosts/Kasper_C15-Speed<>53560.Replay.gbx",
+        "lastUpdated": 1690021661000
+      }
+    },
+    "lastUpdated": 1690021661000,
+    "excluded": false,
+    "diff": { "ms": -3720, "percentage": -7.4638844301765594 }
+  },
+  {
+    "name": "D08-Speed",
+    "records": {
+      "Casper": {
+        "time": 54740,
+        "fileName": "ghosts/Casper_D08-Speed<>54740.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 55200,
+        "fileName": "ghosts/Kasper_D08-Speed<>55200.Replay.gbx",
+        "lastUpdated": 1691325607000
+      }
+    },
+    "lastUpdated": 1691325607000,
+    "excluded": false,
+    "diff": { "ms": -460, "percentage": -0.8403361344537785 }
+  },
+  {
+    "name": "D12-Speed",
+    "records": {
+      "Casper": {
+        "time": 42060,
+        "fileName": "ghosts/Casper_D12-Speed<>42060.Replay.gbx",
+        "lastUpdated": 1690405193000
+      },
+      "Kasper": {
+        "time": 43440,
+        "fileName": "ghosts/Kasper_D12-Speed<>43440.Replay.gbx",
+        "lastUpdated": 1690822787000
+      }
+    },
+    "lastUpdated": 1690822787000,
+    "excluded": false,
+    "diff": { "ms": -1380, "percentage": -3.2810271041369576 }
+  },
+  {
+    "name": "A06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 28570,
+        "fileName": "ghosts/Casper_A06-Obstacle<>28570.Replay.gbx",
+        "lastUpdated": 1690235575000
+      },
+      "Kasper": {
+        "time": 19220,
+        "fileName": "ghosts/Kasper_A06-Obstacle<>19220.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": 9350, "percentage": 48.64724245577523 }
+  },
+  {
+    "name": "B06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 27240,
+        "fileName": "ghosts/Casper_B06-Obstacle<>27240.Replay.gbx",
+        "lastUpdated": 1690838098000
+      },
+      "Kasper": {
+        "time": 27280,
+        "fileName": "ghosts/Kasper_B06-Obstacle<>27280.Replay.gbx",
+        "lastUpdated": 1690485109000
+      }
+    },
+    "lastUpdated": 1690838098000,
+    "excluded": false,
+    "diff": { "ms": -40, "percentage": -0.1468428781204123 }
+  },
+  {
+    "name": "B13-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 25380,
+        "fileName": "ghosts/Casper_B13-Obstacle<>25380.Replay.gbx",
+        "lastUpdated": 1690206685000
+      },
+      "Kasper": {
+        "time": 25500,
+        "fileName": "ghosts/Kasper_B13-Obstacle<>25500.Replay.gbx",
+        "lastUpdated": 1690565989000
+      }
+    },
+    "lastUpdated": 1690565989000,
+    "excluded": false,
+    "diff": { "ms": -120, "percentage": -0.47281323877068626 }
+  },
+  {
+    "name": "C08-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 26510,
+        "fileName": "ghosts/Casper_C08-Obstacle<>26510.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 29350,
+        "fileName": "ghosts/Kasper_C08-Obstacle<>29350.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2840, "percentage": -10.7129385137684 }
+  },
+  {
+    "name": "C12-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 32340,
+        "fileName": "ghosts/Casper_C12-Obstacle<>32340.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 33500,
+        "fileName": "ghosts/Kasper_C12-Obstacle<>33500.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -1160, "percentage": -3.5868893011750114 }
+  },
+  {
+    "name": "D06-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 64880,
+        "fileName": "ghosts/Casper_D06-Obstacle<>64880.Replay.gbx",
+        "lastUpdated": 1690404731000
+      },
+      "Kasper": {
+        "time": 73890,
+        "fileName": "ghosts/Kasper_D06-Obstacle<>73890.Replay.gbx",
+        "lastUpdated": 1690131212000
+      }
+    },
+    "lastUpdated": 1690404731000,
+    "excluded": false,
+    "diff": { "ms": -9010, "percentage": -13.887176325524052 }
+  },
+  {
+    "name": "D09-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 45930,
+        "fileName": "ghosts/Casper_D09-Obstacle<>45930.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 48110,
+        "fileName": "ghosts/Kasper_D09-Obstacle<>48110.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -2180, "percentage": -4.746353146091886 }
+  },
+  {
+    "name": "E01-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 46600,
+        "fileName": "ghosts/Casper_E01-Obstacle<>46600.Replay.gbx",
+        "lastUpdated": 1690059691000
+      },
+      "Kasper": {
+        "time": 49610,
+        "fileName": "ghosts/Kasper_E01-Obstacle<>49610.Replay.gbx",
+        "lastUpdated": 1690290575000
+      }
+    },
+    "lastUpdated": 1690290575000,
+    "excluded": false,
+    "diff": { "ms": -3010, "percentage": -6.459227467811157 }
+  },
+  {
+    "name": "E04-Obstacle",
+    "records": {
+      "Casper": {
+        "time": 117330,
+        "fileName": "ghosts/Casper_E04-Obstacle<>117330.Replay.gbx",
+        "lastUpdated": 1690922866000
+      }
+    },
+    "lastUpdated": 1690922866000,
+    "excluded": false
+  },
+  {
+    "name": "A04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 5860,
+        "fileName": "ghosts/Casper_A04-Acrobatic<>5860.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 5880,
+        "fileName": "ghosts/Kasper_A04-Acrobatic<>5880.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690021660000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.34129692832765013 }
+  },
+  {
+    "name": "A10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 9510,
+        "fileName": "ghosts/Casper_A10-Acrobatic<>9510.Replay.gbx",
+        "lastUpdated": 1690150609000
+      },
+      "Kasper": {
+        "time": 9650,
+        "fileName": "ghosts/Kasper_A10-Acrobatic<>9650.Replay.gbx",
+        "lastUpdated": 1691321799000
+      }
+    },
+    "lastUpdated": 1691321799000,
+    "excluded": false,
+    "diff": { "ms": -140, "percentage": -1.4721345951629772 }
+  },
+  {
+    "name": "B04-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 12900,
+        "fileName": "ghosts/Casper_B04-Acrobatic<>12900.Replay.gbx",
+        "lastUpdated": 1690205105000
+      },
+      "Kasper": {
+        "time": 12920,
+        "fileName": "ghosts/Kasper_B04-Acrobatic<>12920.Replay.gbx",
+        "lastUpdated": 1690483476000
+      }
+    },
+    "lastUpdated": 1690483476000,
+    "excluded": false,
+    "diff": { "ms": -20, "percentage": -0.15503875968991832 }
+  },
+  {
+    "name": "B09-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13710,
+        "fileName": "ghosts/Casper_B09-Acrobatic<>13710.Replay.gbx",
+        "lastUpdated": 1690666563000
+      },
+      "Kasper": {
+        "time": 14780,
+        "fileName": "ghosts/Kasper_B09-Acrobatic<>14780.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690666563000,
+    "excluded": false,
+    "diff": { "ms": -1070, "percentage": -7.804522246535384 }
+  },
+  {
+    "name": "C03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 13330,
+        "fileName": "ghosts/Casper_C03-Acrobatic<>13330.Replay.gbx",
+        "lastUpdated": 1690207546000
+      },
+      "Kasper": {
+        "time": 14340,
+        "fileName": "ghosts/Kasper_C03-Acrobatic<>14340.Replay.gbx",
+        "lastUpdated": 1690021660000
+      }
+    },
+    "lastUpdated": 1690207546000,
+    "excluded": false,
+    "diff": { "ms": -1010, "percentage": -7.576894223555897 }
+  },
+  {
+    "name": "C10-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14880,
+        "fileName": "ghosts/Casper_C10-Acrobatic<>14880.Replay.gbx",
+        "lastUpdated": 1690919388000
+      },
+      "Kasper": {
+        "time": 15810,
+        "fileName": "ghosts/Kasper_C10-Acrobatic<>15810.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690919388000,
+    "excluded": false,
+    "diff": { "ms": -930, "percentage": -6.25 }
+  },
+  {
+    "name": "D03-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 16400,
+        "fileName": "ghosts/Casper_D03-Acrobatic<>16400.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 16580,
+        "fileName": "ghosts/Kasper_D03-Acrobatic<>16580.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.097560975609757 }
+  },
+  {
+    "name": "D11-Acrobatic",
+    "records": {
+      "Casper": {
+        "time": 14060,
+        "fileName": "ghosts/Casper_D11-Acrobatic<>14060.Replay.gbx",
+        "lastUpdated": 1690402726000
+      },
+      "Kasper": {
+        "time": 14240,
+        "fileName": "ghosts/Kasper_D11-Acrobatic<>14240.Replay.gbx",
+        "lastUpdated": 1690306597000
+      }
+    },
+    "lastUpdated": 1690402726000,
+    "excluded": false,
+    "diff": { "ms": -180, "percentage": -1.2802275960170695 }
+  },
+  {
+    "name": "A08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 60410,
+        "fileName": "ghosts/Casper_A08-Endurance<>60410.Replay.gbx",
+        "lastUpdated": 1689971901000
+      },
+      "Kasper": {
+        "time": 63750,
+        "fileName": "ghosts/Kasper_A08-Endurance<>63750.Replay.gbx",
+        "lastUpdated": 1690390961000
+      }
+    },
+    "lastUpdated": 1690390961000,
+    "excluded": false,
+    "diff": { "ms": -3340, "percentage": -5.528885946035422 }
+  },
+  {
+    "name": "B08-Endurance",
+    "records": {
+      "Casper": {
+        "time": 100720,
+        "fileName": "ghosts/Casper_B08-Endurance<>100720.Replay.gbx",
+        "lastUpdated": 1689971885000
+      },
+      "Kasper": {
+        "time": 101740,
+        "fileName": "ghosts/Kasper_B08-Endurance<>101740.Replay.gbx",
+        "lastUpdated": 1690535298000
+      }
+    },
+    "lastUpdated": 1690535298000,
+    "excluded": false,
+    "diff": { "ms": -1020, "percentage": -1.0127084988085677 }
+  },
+  {
+    "name": "C05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 113990,
+        "fileName": "ghosts/Casper_C05-Endurance<>113990.Replay.gbx",
+        "lastUpdated": 1690918479000
+      },
+      "Kasper": {
+        "time": 115730,
+        "fileName": "ghosts/Kasper_C05-Endurance<>115730.Replay.gbx",
+        "lastUpdated": 1691329971000
+      }
+    },
+    "lastUpdated": 1691329971000,
+    "excluded": false,
+    "diff": { "ms": -1740, "percentage": -1.5264496885691647 }
+  },
+  {
+    "name": "C14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 115920,
+        "fileName": "ghosts/Casper_C14-Endurance<>115920.Replay.gbx",
+        "lastUpdated": 1690919973000
+      },
+      "Kasper": {
+        "time": 127080,
+        "fileName": "ghosts/Kasper_C14-Endurance<>127080.Replay.gbx",
+        "lastUpdated": 1691264011000
+      }
+    },
+    "lastUpdated": 1691264011000,
+    "excluded": false,
+    "diff": { "ms": -11160, "percentage": -9.627329192546586 }
+  },
+  {
+    "name": "D01-Endurance",
+    "records": {
+      "Casper": {
+        "time": 149980,
+        "fileName": "ghosts/Casper_D01-Endurance<>149980.Replay.gbx",
+        "lastUpdated": 1690232885000
+      },
+      "Kasper": {
+        "time": 156820,
+        "fileName": "ghosts/Kasper_D01-Endurance<>156820.Replay.gbx",
+        "lastUpdated": 1690821495000
+      }
+    },
+    "lastUpdated": 1690821495000,
+    "excluded": false,
+    "diff": { "ms": -6840, "percentage": -4.560608081077477 }
+  },
+  {
+    "name": "D14-Endurance",
+    "records": {
+      "Casper": {
+        "time": 185980,
+        "fileName": "ghosts/Casper_D14-Endurance<>185980.Replay.gbx",
+        "lastUpdated": 1689971886000
+      },
+      "Kasper": {
+        "time": 197810,
+        "fileName": "ghosts/Kasper_D14-Endurance<>197810.Replay.gbx",
+        "lastUpdated": 1690455896000
+      }
+    },
+    "lastUpdated": 1690455896000,
+    "excluded": false,
+    "diff": { "ms": -11830, "percentage": -6.360899021400157 }
+  },
+  {
+    "name": "D15-Endurance",
+    "records": {
+      "Casper": {
+        "time": 474810,
+        "fileName": "ghosts/Casper_D15-Endurance<>474810.Replay.gbx",
+        "lastUpdated": 1690920652000
+      }
+    },
+    "lastUpdated": 1690920652000,
+    "excluded": false
+  },
+  {
+    "name": "E02-Endurance",
+    "records": {
+      "Casper": {
+        "time": 279340,
+        "fileName": "ghosts/Casper_E02-Endurance<>279340.Replay.gbx",
+        "lastUpdated": 1690232104000
+      },
+      "Kasper": {
+        "time": 304460,
+        "fileName": "ghosts/Kasper_E02-Endurance<>304460.Replay.gbx",
+        "lastUpdated": 1690305946000
+      }
+    },
+    "lastUpdated": 1690305946000,
+    "excluded": false,
+    "diff": { "ms": -25120, "percentage": -8.99262547433235 }
+  },
+  {
+    "name": "E03-Endurance",
+    "records": {
+      "Casper": {
+        "time": 383840,
+        "fileName": "ghosts/Casper_E03-Endurance<>383840.Replay.gbx",
+        "lastUpdated": 1690232104000
+      }
+    },
+    "lastUpdated": 1690232104000,
+    "excluded": false
+  },
+  {
+    "name": "E05-Endurance",
+    "records": {
+      "Casper": {
+        "time": 3919660,
+        "fileName": "ghosts/Casper_E05-Endurance<>3919660.Replay.gbx",
+        "lastUpdated": 1690232105000
+      }
+    },
+    "lastUpdated": 1690232105000,
+    "excluded": true
+  },
+  {
+    "name": "kaspererpro",
+    "records": {
+      "Casper": {
+        "time": 41580,
+        "fileName": "ghosts/Casper_kaspererpro<>41580.Replay.gbx",
+        "lastUpdated": 1690058716000
+      },
+      "Kasper": {
+        "time": 42230,
+        "fileName": "ghosts/Kasper_kaspererpro<>42230.Replay.gbx",
+        "lastUpdated": 1690823308000
+      }
+    },
+    "lastUpdated": 1690823308000,
+    "excluded": false,
+    "diff": { "ms": -650, "percentage": -1.5632515632515664 },
+    "fileName": "tracks/kaspererpro.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c1",
+    "records": {
+      "Casper": {
+        "time": 211150,
+        "fileName": "ghosts/Casper_kaspererpro-c1<>211150.Replay.gbx",
+        "lastUpdated": 1691007208000
+      }
+    },
+    "lastUpdated": 1691007208000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c1.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c3",
+    "records": {
+      "Casper": {
+        "time": 384090,
+        "fileName": "ghosts/Casper_kaspererpro-c3<>384090.Replay.gbx",
+        "lastUpdated": 1691095002000
+      }
+    },
+    "lastUpdated": 1691095002000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c3.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro2",
+    "records": {
+      "Casper": {
+        "time": 71940,
+        "fileName": "ghosts/Casper_kaspererpro2<>71940.Replay.gbx",
+        "lastUpdated": 1690058716000
+      },
+      "Kasper": {
+        "time": 77600,
+        "fileName": "ghosts/Kasper_kaspererpro2<>77600.Replay.gbx",
+        "lastUpdated": 1690131213000
+      }
+    },
+    "lastUpdated": 1690131213000,
+    "excluded": false,
+    "diff": { "ms": -5660, "percentage": -7.86766750069503 },
+    "fileName": "tracks/kaspererpro2.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro3",
+    "records": {
+      "Casper": {
+        "time": 41390,
+        "fileName": "ghosts/Casper_kaspererpro3<>41390.Replay.gbx",
+        "lastUpdated": 1690145397000
+      },
+      "Kasper": {
+        "time": 44480,
+        "fileName": "ghosts/Kasper_kaspererpro3<>44480.Replay.gbx",
+        "lastUpdated": 1690136679000
+      }
+    },
+    "lastUpdated": 1690145397000,
+    "excluded": false,
+    "diff": { "ms": -3090, "percentage": -7.465571394056525 },
+    "fileName": "tracks/kaspererpro3.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro4",
+    "records": {
+      "Casper": {
+        "time": 20230,
+        "fileName": "ghosts/Casper_kaspererpro4<>20230.Replay.gbx",
+        "lastUpdated": 1690146040000
+      },
+      "Kasper": {
+        "time": 20680,
+        "fileName": "ghosts/Kasper_kaspererpro4<>20680.Replay.gbx",
+        "lastUpdated": 1690136679000
+      }
+    },
+    "lastUpdated": 1690146040000,
+    "excluded": false,
+    "diff": { "ms": -450, "percentage": -2.2244191794364765 },
+    "fileName": "tracks/kaspererpro4.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro5",
+    "records": {
+      "Casper": {
+        "time": 24540,
+        "fileName": "ghosts/Casper_kaspererpro5<>24540.Replay.gbx",
+        "lastUpdated": 1690238059000
+      },
+      "Kasper": {
+        "time": 27200,
+        "fileName": "ghosts/Kasper_kaspererpro5<>27200.Replay.gbx",
+        "lastUpdated": 1690308024000
+      }
+    },
+    "lastUpdated": 1690308024000,
+    "excluded": false,
+    "diff": { "ms": -2660, "percentage": -10.839445802770985 },
+    "fileName": "tracks/kaspererpro5.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererprotrack",
+    "records": {
+      "Casper": {
+        "time": 160180,
+        "fileName": "ghosts/Casper_kaspererprotrack<>160180.Replay.gbx",
+        "lastUpdated": 1690753804000
+      },
+      "Kasper": {
+        "time": 164410,
+        "fileName": "ghosts/Kasper_kaspererprotrack<>164410.Replay.gbx",
+        "lastUpdated": 1690803511000
+      }
+    },
+    "lastUpdated": 1690803511000,
+    "excluded": false,
+    "diff": { "ms": -4230, "percentage": -2.640779123486081 },
+    "fileName": "tracks/kaspererprotrack.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c1",
+    "records": {
+      "Casper": {
+        "time": 211150,
+        "fileName": "ghosts/Casper_kaspererpro-c1<>211150.Replay.gbx",
+        "lastUpdated": 1691007208000
+      }
+    },
+    "lastUpdated": 1691007208000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c1.Challenge.Gbx"
+  },
+  {
+    "name": "kaspererpro-c3",
+    "records": {
+      "Casper": {
+        "time": 384090,
+        "fileName": "ghosts/Casper_kaspererpro-c3<>384090.Replay.gbx",
+        "lastUpdated": 1691095002000
+      }
+    },
+    "lastUpdated": 1691095002000,
+    "excluded": false,
+    "fileName": "tracks/kaspererpro-c3.Challenge.Gbx"
+  }
+]

@@ -120,9 +120,10 @@ async function synchronize() {
     return;
   }
 
-  const tracks: Track[] = (
-    (await trackGroupsResult.json()) as TrackGroup[]
-  ).reduce<Track[]>((all, tg) => all.concat(...tg.tracks), []);
+  const tracks: Track[] =
+    ((await trackGroupsResult.json()) as TrackGroup[]).find(
+      (tg) => tg.groupName === "All tracks"
+    )?.tracks || [];
 
   const otherGhosts: string[] = [];
 
